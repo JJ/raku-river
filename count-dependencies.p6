@@ -7,12 +7,12 @@ use DBIish;
 
 sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     my $dbh = DBIish.connect: 'SQLite', :database("toast.sqlite.db"), :RaiseError;
-    my $sth = $dbh.prepare('SELECT module,status FROM toast');
+    my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status != "Succ" ');
     $sth.execute();
     my @rows = $sth.allrows();
     my %fails;
     for @rows -> $row {
-        %fails{$row[0]} = True if $row[1] ne 'Succ';
+        %fails{$row} = True;
     }
     my %dependencies;
     chdir($dir);
