@@ -6,6 +6,7 @@ use JSON::Fast;
 
 sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     my $names = ().SetHash;
+    my $eco = ().SetHash;
     my %links;
     my %type;
     chdir($dir);
@@ -22,6 +23,7 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
         }
         my $this-distro = $data<name>;
         $names ∪= $this-distro;
+        $eco   ∪= $this-distro;
         for <build-depends depends test-depends> -> $key {
             for $data{$key}.values -> $distro {
                 %links{$this-distro}{$distro}++;
@@ -31,15 +33,12 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     }
 
     my @nodes = $names.keys;
-    
     my %inverse-mapping;
-    
     say "*Vertices ", @nodes.elems;
-    
     for @nodes.kv -> $idx, $val {
         my $n = $idx + 1;
         %inverse-mapping{$val} = $n;
-        say "$n \"$val\"";
+        say "$n \"$val\" ", $eco{$val}??"Eco"!!"Core" ;
     }
     
     say "*arcs";

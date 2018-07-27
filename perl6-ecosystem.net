@@ -1,1108 +1,1108 @@
 *Vertices 457
-1 "Linux::Process::SignalInfo"
-2 "RPi::Device::ST7036"
-3 "IO::Socket::Async::SSL"
-4 "Inline::Scheme::Guile"
-5 "Router::Boost"
-6 "List::UtilsBy"
-7 "META6"
-8 "Net::HTTP::POST"
-9 "Pod::To::Text"
-10 "Grammar::Profiler::Simple"
-11 "Pg::Notify"
-12 "Template::Mustache"
-13 "Distribution::Builder::MakeFromJSON"
-14 "Trie"
-15 "File::Find"
-16 "Lingua::EN::Conjugate"
-17 "IO::Notification::Recursive"
-18 "Sum"
-19 "Pastebin::Gist"
-20 "CoreHackers::Q"
-21 "Math::Curves"
-22 "File::Temp"
-23 "HandleSupplier"
-24 "CPAN::Uploader::Tiny:ver<0.0.4+>"
-25 "Tie::Hash"
-26 "IRC::TextColor"
-27 "Punnable"
-28 "Algorithm::Manacher"
-29 "BufUtils"
-30 "LibCurl"
-31 "CommonMark"
-32 "Lingua::Stopwords"
-33 "SemVer"
-34 "Subsets::IO"
-35 "Task::Galaxy"
-36 "Linux::Fuser"
-37 "Zef::Client"
-38 "Graffiks"
-39 "NativeHelpers::CStruct"
-40 "CSS::Declarations"
-41 "IRC::Client::Plugin::NickServ"
-42 "Serialise::Map"
-43 "List::Util"
-44 "Hash::Util"
-45 "RakudoPrereq"
-46 "PriorityQueue"
-47 "Powerline::Prompt"
-48 "Lingua::Lipogram"
-49 "Archive::Libarchive"
-50 "CompUnit::Repository::Mask"
-51 "Text::Table::Simple"
-52 "CSS::Grammar"
-53 "P5chop"
-54 "Net::LibIDN"
-55 "P5ucfirst"
-56 "epoll"
-57 "Unicode::PRECIS"
-58 "IRC::Client::Plugin::Ignore"
-59 "Algorithm::MinMaxHeap"
-60 "OpenAPI::Model"
-61 "Ddt"
-62 "WhereList"
-63 "Toaster"
-64 "Config::JSON"
-65 "HTML::Canvas"
-66 "Algorithm::GooglePolylineEncoding"
-67 "MQ::Posix"
-68 "Algorithm::LibSVM"
-69 "JSON::Pointer"
-70 "JSON::RPC"
-71 "DateTime::Format"
-72 "YAMLish"
-73 "Template::Anti"
-74 "Pluggable"
-75 "Math::Primesieve"
-76 "TelegramBot"
-77 "Shell::Capture"
-78 "Text::Markdown"
-79 "Getopt::Advance"
-80 "Algorithm::Evolutionary::Simple"
-81 "Slang::AltTernary"
-82 "App::Mi6"
-83 "PostCocoon::Url"
-84 "Chemistry::Elements"
-85 "Cro::Core"
-86 "Data::MessagePack"
-87 "Manifesto"
-88 "P5-X"
-89 "ScaleVec"
-90 "007"
-91 "Lingua::Pangram"
-92 "Sub::Name"
-93 "Net::IP"
-94 "HTTP::Tinyish"
-95 "Template6"
-96 "Time::Duration::Parser"
-97 "Zef::Config"
-98 "NativeHelpers::Array"
-99 "Algorithm::Elo"
-100 "Scalar::Util"
-101 "Bailador::Plugin::NamedQueries"
-102 "Test::Notice"
-103 "Munge"
-104 "LibraryMake"
-105 "Crypt::RSA"
-106 "Test::META"
-107 "Sparrowdo::RemoteFile"
-108 "File::Directory::Tree"
-109 "Config"
-110 "My::Module"
-111 "Sparrowdo::Sparrow::Update"
-112 "Sparrowdo::Cpanm::GitHub"
-113 "LIVR"
-114 "P5tie"
-115 "Font::FreeType"
-116 "Fcntl"
-117 "SCGI"
-118 "CompUnit::Util"
-119 "Acme::Test::Module"
-120 "Operator::grandpa"
-121 "Git::Config"
-122 "Auth::SCRAM"
-123 "Proc::Screen"
-124 "Verge::RPC::Client"
-125 "P5lcfirst"
-126 "Number::More"
-127 "Object::Container"
-128 "Test::SourceFiles"
-129 "PDF::Lite"
-130 "Concurrent::BoundedChannel"
-131 "Algorithm::DawkinsWeasel"
-132 "List::SomeUtils"
-133 "Test::Mock"
-134 "Serialize::Naive"
-135 "IO::Blob"
-136 "Propius"
-137 "P5ord"
-138 "TCC"
-139 "Spit"
-140 "Font::AFM"
-141 "DBIx::NamedQueries"
-142 "SQL::NamedPlaceholder"
-143 "HTTP::Request::FormData"
-144 "HTTP::Easy"
-145 "Perl6::Parser"
-146 "LibYAML"
-147 "P6TCI"
-148 "WebService::FootballData"
-149 "Build::Simple"
-150 "Color"
-151 "JSON::Hjson"
-152 "Chart::Gnuplot"
-153 "Text::Template"
-154 "Test::Deeply::Relaxed"
-155 "FastCGI::NativeCall"
-156 "Log::ZMQ"
-157 "DateTime::Parse"
-158 "Image::QRCode"
-159 "SQL::Lexer"
-160 "XML"
-161 "TagLibC"
-162 "HTTP::Server::Async"
-163 "Terminal::WCWidth"
-164 "Email::Simple"
-165 "Sparrowdo::Nginx"
-166 "SVG::Plot"
-167 "Math::RungeKutta"
-168 "P5__FILE__"
-169 "Git::Simple"
-170 "App::GymScheduler"
-171 "Pod::EOD"
-172 "Terminal::Spinners"
-173 "MIME::Base64"
-174 "LibraryCheck"
-175 "Grammar::Debugger"
-176 "Music::Engine"
-177 "SVG"
-178 "P5oct"
-179 "Audio::Hydrogen"
-180 "Proc::InvokeEditor"
-181 "Net::OSC"
-182 "Text::Tabs"
-183 "HTML::Parser::XML"
-184 "Log::Any"
-185 "Test::Declare"
-186 "Sys::Hostname"
-187 "Digest"
-188 "CommandLine::Usage"
-189 "DBI::Async"
-190 "Path::Iterator"
-191 "WWW"
-192 "Wikidata::API"
-193 "Data::Selector"
-194 "BioPerl6"
-195 "Getopt::Long"
-196 "Backtrace::AsHTML"
-197 "OpenSSL"
-198 "Proc::More"
-199 "IRC::Client::Plugin::UrlTitle"
-200 "Log::Minimal"
-201 "Reminders"
-202 "License::Software"
-203 "IO::String"
-204 "Net::ZMQ:auth('github:gabrielash')"
-205 "Build::Graph"
-206 "Config::TOML"
-207 "System::Query"
-208 "XML::Writer"
-209 "Linenoise"
-210 "Terminal::ANSIColor"
-211 "Hashids"
-212 "IO::CatHandle::AutoLines"
-213 "SVG::Plot::Pie"
-214 "FastCGI::NativeCall::Async"
-215 "HTTP::Server::Tiny"
-216 "MsgPack"
-217 "Lingua::Stem::Es"
-218 "List::MoreUtils"
-219 "RPi::Wiring::Pi"
-220 "P5chr"
-221 "Slippy::Semilist"
-222 "DB::Pg"
-223 "RPi::ButtonWatcher"
-224 "WWW::vlc::Remote"
-225 "Hash::Merge"
-226 "MPD::Client"
-227 "Template::Mojo"
-228 "App::FindSource"
-229 "OAuth2::Client::Google"
-230 "Cairo"
-231 "AI::FANN"
-232 "Benchy"
-233 "Test::Output"
-234 "Test::Meta"
-235 "Text::More"
-236 "HTTP::UserAgent"
-237 "JSON::Fast"
-238 "Geo::Ellipsoid"
-239 "Config::Parser::toml"
-240 "Git::Config:auth<github:gfldex>"
-241 "Proc::Q"
-242 "Data::StaticTable"
-243 "Data::Dump::Tree"
-244 "Linux::Cpuinfo"
-245 "OrderedHash"
-246 "Sparrowdo"
-247 "JSON::Tiny"
-248 "Config::Parser::yaml"
-249 "IO::Capture::Simple"
-250 "Sparky::Plugin::Notify::Email"
-251 "App::Football"
-252 "BioInfo"
-253 "Color::Names"
-254 "Testo"
-255 "Cro::HTTP::Test"
-256 "Foo::Bar"
-257 "HTTP::Parser"
-258 "Format::Lisp"
-259 "Log"
-260 "Sparrowdo::Cpm"
-261 "File::Ignore"
-262 "Cro::HTTP"
-263 "List::AllUtils"
-264 "Tie::Array"
-265 "IRC::Client::Plugin::Github"
-266 "Archive::Libarchive::Raw"
-267 "Terminal::Table"
-268 "P5rindex"
-269 "GraphQL"
-270 "Proxee"
-271 "Base64"
-272 "Acme::Advent::Highlighter"
-273 "Cro::SSL"
-274 "p6lert"
-275 "Proc::Editor"
-276 "XML::XPath"
-277 "MIME::Types"
-278 "Hash::MultiValue"
-279 "Algorithm::AhoCorasick"
-280 "Config::INI"
-281 "Test"
-282 "Color::Named"
-283 "File::Which"
-284 "META6::bin"
-285 "DispatchMap"
-286 "PDF::Font::Loader"
-287 "Digest::HMAC"
-288 "Supply::Timeout"
-289 "JSON::Pretty"
-290 "SeqSplitter"
-291 "ArrayHash"
-292 "PKCS5"
-293 "CPAN::Uploader::Tiny"
-294 "Sparrowdo::Goss"
-295 "Stream::Buffered"
-296 "AWS::Session"
-297 "DOM::Tiny"
-298 "P5chomp"
-299 "Sparky::Plugin::Hello"
-300 "Data::TextOrBinary"
-301 "Cro::HTTP::Router"
-302 "LWP::Simple"
-303 "OpenAPI::Schema::Validate"
-304 "Dice::Roller"
-305 "Sparrowdo::Rvm"
-306 "Swedish::TextDates_sv"
-307 "Games::TauStation::DateTime"
-308 "P5lc"
-309 "Subset::Helper"
-310 "Questhub"
-311 "Zef::Identity"
-312 "MessagePack::Class"
-313 "Redis::Async"
-314 "P5index"
-315 "Sub::Util"
-316 "MeCab"
-317 "Debugger::UI::CommandLine"
-318 "Pod::To::HTML"
-319 "SSH::LibSSH"
-320 "Grammar::ErrorReporting"
-321 "Slang::Predicate"
-322 "Result"
-323 "SDL2::Raw"
-324 "Proc::Async::Timeout"
-325 "Zef::Distribution"
-326 "Zef"
-327 "Test::ClientServer"
-328 "TimeUnit"
-329 "Git::Wrapper"
-330 "PSGI"
-331 "Email::Valid"
-332 "URI"
-333 "IO::Socket::SSL"
-334 "TAP::Harness"
-335 "EventSource::Server"
-336 "GDBM"
-337 "XML::Class"
-338 "Bailador"
-339 "Seq::PreFetch"
-340 "Concurrent::Stack"
-341 "Control::Bail"
-342 "LN"
-343 "Sparrowdo::Chef::Client"
-344 "WebService::AWS::S3"
-345 "HTTP::Headers"
-346 "Shell::Command"
-347 "Geo::Hash"
-348 "IO::Path::Dirstack"
-349 "LibGit2"
-350 "Sparky::Plugin::Notify::Telegram"
-351 "panda"
-352 "Test::Scheduler"
-353 "IRC::Client::Plugin::UserPoints"
-354 "Matrix::Client"
-355 "Hematite"
-356 "Ident::Client"
-357 "Temp::Path"
-358 "IRC::Client"
-359 "App::MPD::AutoQueue"
-360 "Test::HTTP::Server"
-361 "OO::Monitors"
-362 "PDF"
-363 "IO::Prompt"
-364 "Net::HTTP"
-365 "Time::Crontab"
-366 "HTML::Escape"
-367 "Color::Scheme"
-368 "Perl6::Tidy"
-369 "URI::Encode"
-370 "META6::To::Man"
-371 "Tie::StdHash"
-372 "CucumisSextus"
-373 "Linux::Proc::Statm"
-374 "Term::termios:auth<github:krunen>"
-375 "DateTime::Format::W3CDTF"
-376 "Lingua::Palindrome"
-377 "JS::Minify"
-378 "WebService::Slack::Webhook"
-379 "Unix::errno"
-380 "HTTP::Client"
-381 "Terminal::Getpass"
-382 "Sparrowdo::Prometheus"
-383 "Test::Color"
-384 "Algorithm::NaiveBayes"
-385 "p6doc"
-386 "App::Platform"
-387 "Cro::HTTP::Session::Redis"
-388 "Pod::To::Markdown"
-389 "Sparrowform"
-390 "Grammar::Tracer"
-391 "Locale-Codes-Country"
-392 "Digest::SHA"
-393 "Sparrowdo::Ruby::Bundler"
-394 "Test::Util::ServerPort"
-395 "NativeCall"
-396 "Bitcoin::RPC::Client"
-397 "PathTools"
-398 "HTTP::Status"
-399 "IO::Dir"
-400 "HTTP::Server::Ogre"
-401 "Terminal::Print"
-402 "Sparrowdo::Archive"
-403 "WWW::P6lert"
-404 "Getopt::Std"
-405 "Data::Dump"
-406 "Inline::Go"
-407 "Test::When"
-408 "LibUUID"
-409 "Base64::Native"
-410 "MinG"
-411 "Minecraft-Tools"
-412 "Readline"
-413 "Compress::Zlib"
-414 "Digest::MD5"
-415 "Cro::HTTP::Client"
-416 "Pod::To::HTMLBody"
-417 "Concurrent::Queue"
-418 "Text::Sift4"
-419 "UUID"
-420 "Hash::Merge:api<1>:version<1.0.0+>"
-421 "ANTLR4::Grammar"
-422 "Sparky"
-423 "Sparrowdo::Chef::Manager"
-424 "Sparrowdo::Rakudo"
-425 "Ops::SI"
-426 "Tie::StdArray"
-427 "FanFou"
-428 "CSV::Parser"
-429 "DNS::Zone"
-430 "P5uc"
-431 "Text::Wrap"
-432 "PowerNap"
-433 "P5hex"
-434 "Grammar::BNF"
-435 "Concurrent::Progress"
-436 "Uzu"
-437 "Crust"
-438 "System::Passwd"
-439 "Math::Constants"
-440 "Cro::OpenAPI::RoutesFromDefinition"
-441 "PDF::Content"
-442 "URL::Find"
-443 "Net::ZMQ"
-444 "PerlStore::FileStore"
-445 "App::Lang::French::VerbTrainer"
-446 "X::Protocol"
-447 "I18N::LangTags"
-448 "Math::Model"
-449 "HTML::Entity"
-450 "Native::Packing"
-451 "Game::Sudoku"
-452 "DBIish"
-453 "Digest::SHA256::Native"
-454 "Net::Jupyter"
-455 "App::snippet"
-456 "HTTP::MultiPartParser"
-457 "zef"
+1 "Pod::To::HTML" Core
+2 "META6::bin" Eco
+3 "Git::Simple" Eco
+4 "Test::HTTP::Server" Eco
+5 "Backtrace::AsHTML" Eco
+6 "DateTime::Format::W3CDTF" Core
+7 "Data::Dump" Core
+8 "Terminal::WCWidth" Core
+9 "MIME::Types" Core
+10 "Terminal::Spinners" Eco
+11 "License::Software" Eco
+12 "PriorityQueue" Eco
+13 "HTTP::Server::Tiny" Eco
+14 "Proc::Editor" Eco
+15 "Lingua::Stopwords" Eco
+16 "LibraryMake" Core
+17 "Git::Config:auth<github:gfldex>" Core
+18 "Cro::HTTP::Router" Core
+19 "Hash::Merge" Eco
+20 "Scalar::Util" Eco
+21 "Data::Selector" Eco
+22 "BioPerl6" Core
+23 "TCC" Eco
+24 "JSON::Pretty" Core
+25 "Sparky::Plugin::Notify::Email" Eco
+26 "LibGit2" Eco
+27 "Net::HTTP" Core
+28 "Algorithm::Elo" Eco
+29 "Operator::grandpa" Eco
+30 "Log::Minimal" Eco
+31 "IRC::Client::Plugin::NickServ" Eco
+32 "Algorithm::AhoCorasick" Eco
+33 "App::Platform" Eco
+34 "P5index" Core
+35 "Digest" Core
+36 "Text::Tabs" Core
+37 "Zef::Identity" Core
+38 "Concurrent::BoundedChannel" Eco
+39 "Lingua::Lipogram" Eco
+40 "GraphQL" Eco
+41 "P5hex" Core
+42 "TimeUnit" Eco
+43 "App::Mi6" Eco
+44 "CompUnit::Util" Core
+45 "Proxee" Eco
+46 "Sparrowdo::Chef::Manager" Eco
+47 "Text::Markdown" Core
+48 "P5rindex" Eco
+49 "ArrayHash" Eco
+50 "LWP::Simple" Eco
+51 "SQL::NamedPlaceholder" Eco
+52 "P5tie" Core
+53 "Math::Curves" Eco
+54 "XML::Writer" Core
+55 "HandleSupplier" Eco
+56 "CucumisSextus" Eco
+57 "Ident::Client" Eco
+58 "Punnable" Eco
+59 "Math::RungeKutta" Eco
+60 "Lingua::Stem::Es" Eco
+61 "Foo::Bar" Eco
+62 "HTTP::Easy" Core
+63 "OpenAPI::Schema::Validate" Eco
+64 "Time::Crontab" Eco
+65 "P5chomp" Core
+66 "JSON::RPC" Core
+67 "Dice::Roller" Eco
+68 "Geo::Ellipsoid" Eco
+69 "HTTP::Server::Ogre" Core
+70 "007" Core
+71 "DNS::Zone" Eco
+72 "Trie" Eco
+73 "CommandLine::Usage" Eco
+74 "Chart::Gnuplot" Eco
+75 "Config::Parser::toml" Eco
+76 "IO::String" Eco
+77 "Ddt" Eco
+78 "HTTP::Parser" Core
+79 "Pod::To::Markdown" Core
+80 "Lingua::Pangram" Eco
+81 "IRC::Client" Eco
+82 "URL::Find" Core
+83 "Ops::SI" Eco
+84 "Test::Scheduler" Core
+85 "Pluggable" Eco
+86 "Concurrent::Queue" Eco
+87 "Cro::OpenAPI::RoutesFromDefinition" Eco
+88 "RPi::ButtonWatcher" Eco
+89 "Path::Iterator" Core
+90 "Chemistry::Elements" Eco
+91 "Serialise::Map" Eco
+92 "Testo" Core
+93 "Debugger::UI::CommandLine" Core
+94 "IRC::Client::Plugin::UserPoints" Eco
+95 "Pod::To::HTMLBody" Eco
+96 "Text::More" Core
+97 "WWW::vlc::Remote" Eco
+98 "Grammar::Profiler::Simple" Core
+99 "Crust" Core
+100 "Games::TauStation::DateTime" Eco
+101 "Test::Meta" Core
+102 "Data::Dump::Tree" Eco
+103 "Sparky::Plugin::Notify::Telegram" Eco
+104 "Sparrowdo" Core
+105 "Inline::Go" Eco
+106 "Stream::Buffered" Eco
+107 "HTTP::Client" Core
+108 "Tie::StdHash" Eco
+109 "Color::Names" Eco
+110 "File::Find" Core
+111 "IRC::TextColor" Core
+112 "PDF::Content" Core
+113 "DateTime::Format" Core
+114 "SSH::LibSSH" Eco
+115 "WhereList" Eco
+116 "Sparrowdo::Nginx" Eco
+117 "Munge" Eco
+118 "IO::Blob" Eco
+119 "Sparky::Plugin::Hello" Eco
+120 "Config::Parser::yaml" Eco
+121 "MQ::Posix" Eco
+122 "Template::Mojo" Core
+123 "Linux::Cpuinfo" Eco
+124 "Proc::Async::Timeout" Eco
+125 "Redis::Async" Eco
+126 "Color::Scheme" Eco
+127 "Proc::Q" Eco
+128 "List::Util" Eco
+129 "Cro::HTTP::Session::Redis" Eco
+130 "Zef::Client" Core
+131 "Time::Duration::Parser" Eco
+132 "Test::Output" Core
+133 "List::AllUtils" Eco
+134 "Sum" Eco
+135 "Reminders" Eco
+136 "DB::Pg" Eco
+137 "Log::ZMQ" Eco
+138 "UUID" Core
+139 "Math::Constants" Eco
+140 "RPi::Device::ST7036" Eco
+141 "Net::LibIDN" Eco
+142 "OpenAPI::Model" Eco
+143 "Matrix::Client" Eco
+144 "Native::Packing" Core
+145 "Pod::EOD" Eco
+146 "Sparrowdo::Goss" Eco
+147 "PDF::Font::Loader" Eco
+148 "Text::Template" Eco
+149 "Shell::Capture" Eco
+150 "Cro::HTTP::Client" Core
+151 "Terminal::Table" Eco
+152 "P5__FILE__" Eco
+153 "p6lert" Eco
+154 "p6doc" Core
+155 "Cro::Core" Core
+156 "System::Query" Core
+157 "PostCocoon::Url" Eco
+158 "P5ucfirst" Eco
+159 "IRC::Client::Plugin::UrlTitle" Eco
+160 "File::Which" Core
+161 "Acme::Advent::Highlighter" Eco
+162 "URI" Core
+163 "OO::Monitors" Core
+164 "CSS::Declarations" Core
+165 "Net::HTTP::POST" Core
+166 "SVG::Plot::Pie" Core
+167 "LIVR" Eco
+168 "HTML::Canvas" Eco
+169 "DBI::Async" Eco
+170 "Lingua::Palindrome" Eco
+171 "CompUnit::Repository::Mask" Eco
+172 "LN" Eco
+173 "Pastebin::Gist" Core
+174 "Slang::AltTernary" Eco
+175 "Cairo" Core
+176 "P5uc" Eco
+177 "Tie::Hash" Eco
+178 "List::SomeUtils" Eco
+179 "Email::Valid" Core
+180 "Distribution::Builder::MakeFromJSON" Eco
+181 "META6" Core
+182 "Sparrowdo::Cpanm::GitHub" Eco
+183 "Benchy" Eco
+184 "IO::CatHandle::AutoLines" Eco
+185 "IO::Dir" Eco
+186 "Git::Wrapper" Eco
+187 "Digest::MD5" Core
+188 "IO::Prompt" Eco
+189 "CoreHackers::Q" Eco
+190 "Grammar::Debugger" Core
+191 "Sub::Util" Eco
+192 "LibUUID" Eco
+193 "Sparky" Eco
+194 "PSGI" Core
+195 "CPAN::Uploader::Tiny" Eco
+196 "panda" Core
+197 "Questhub" Eco
+198 "Template6" Core
+199 "epoll" Eco
+200 "MeCab" Eco
+201 "Uzu" Eco
+202 "Email::Simple" Core
+203 "Log::Any" Core
+204 "Slippy::Semilist" Eco
+205 "Net::ZMQ" Eco
+206 "Data::MessagePack" Core
+207 "CSS::Grammar" Core
+208 "Sub::Name" Eco
+209 "Term::termios:auth<github:krunen>" Core
+210 "Sparrowdo::Chef::Client" Eco
+211 "Serialize::Naive" Eco
+212 "Linux::Process::SignalInfo" Eco
+213 "BioInfo" Core
+214 "Zef" Core
+215 "IO::Capture::Simple" Core
+216 "HTTP::Server::Async" Core
+217 "Format::Lisp" Eco
+218 "NativeHelpers::Array" Core
+219 "Pg::Notify" Eco
+220 "P5ord" Eco
+221 "URI::Encode" Core
+222 "ScaleVec" Eco
+223 "Slang::Predicate" Eco
+224 "Spit" Eco
+225 "I18N::LangTags" Eco
+226 "Sparrowdo::RemoteFile" Eco
+227 "Tie::Array" Eco
+228 "Control::Bail" Eco
+229 "WWW::P6lert" Eco
+230 "Test::Deeply::Relaxed" Eco
+231 "Bailador::Plugin::NamedQueries" Eco
+232 "Sparrowdo::Prometheus" Eco
+233 "LibraryCheck" Core
+234 "Getopt::Advance" Eco
+235 "JSON::Pointer" Eco
+236 "P5lc" Core
+237 "Supply::Timeout" Eco
+238 "MsgPack" Eco
+239 "Auth::SCRAM" Eco
+240 "Algorithm::DawkinsWeasel" Eco
+241 "Math::Primesieve" Eco
+242 "Shell::Command" Core
+243 "XML::Class" Core
+244 "Net::IP" Eco
+245 "SemVer" Eco
+246 "WebService::Slack::Webhook" Eco
+247 "AWS::Session" Eco
+248 "Template::Anti" Eco
+249 "OpenSSL" Core
+250 "Terminal::Getpass" Eco
+251 "Lingua::EN::Conjugate" Eco
+252 "Getopt::Std" Eco
+253 "My::Module" Eco
+254 "Unix::errno" Eco
+255 "JSON::Fast" Eco
+256 "Template::Mustache" Core
+257 "PowerNap" Eco
+258 "Minecraft-Tools" Eco
+259 "Net::Jupyter" Eco
+260 "Geo::Hash" Eco
+261 "JS::Minify" Eco
+262 "CSV::Parser" Core
+263 "MPD::Client" Eco
+264 "SDL2::Raw" Eco
+265 "Digest::SHA256::Native" Eco
+266 "File::Directory::Tree" Core
+267 "Sparrowdo::Archive" Eco
+268 "Hash::MultiValue" Eco
+269 "Test::Color" Eco
+270 "Zef::Distribution" Core
+271 "XML::XPath" Eco
+272 "TAP::Harness" Core
+273 "P5lcfirst" Core
+274 "Acme::Test::Module" Eco
+275 "Test::SourceFiles" Eco
+276 "Result" Eco
+277 "Build::Simple" Eco
+278 "TelegramBot" Core
+279 "Grammar::BNF" Eco
+280 "Test::Util::ServerPort" Core
+281 "List::MoreUtils" Eco
+282 "Digest::HMAC" Core
+283 "App::FindSource" Eco
+284 "Test::Declare" Eco
+285 "App::MPD::AutoQueue" Eco
+286 "Sparrowdo::Sparrow::Update" Eco
+287 "Task::Galaxy" Eco
+288 "HTTP::Status" Core
+289 "Pod::To::Text" Core
+290 "Linux::Fuser" Eco
+291 "Algorithm::MinMaxHeap" Eco
+292 "Color::Named" Eco
+293 "Terminal::Print" Core
+294 "SVG" Core
+295 "Text::Table::Simple" Core
+296 "Config::TOML" Core
+297 "HTTP::Headers" Eco
+298 "Linux::Proc::Statm" Eco
+299 "Digest::SHA" Core
+300 "App::Lang::French::VerbTrainer" Eco
+301 "Fcntl" Eco
+302 "Cro::HTTP::Test" Eco
+303 "IRC::Client::Plugin::Github" Eco
+304 "Swedish::TextDates_sv" Eco
+305 "Config::JSON" Eco
+306 "Algorithm::GooglePolylineEncoding" Eco
+307 "Perl6::Parser" Eco
+308 "JSON::Tiny" Eco
+309 "Perl6::Tidy" Eco
+310 "Net::ZMQ:auth('github:gabrielash')" Core
+311 "File::Temp" Core
+312 "Getopt::Long" Eco
+313 "Sparrowdo::Ruby::Bundler" Eco
+314 "Number::More" Eco
+315 "Hash::Util" Eco
+316 "PKCS5" Core
+317 "Algorithm::Evolutionary::Simple" Eco
+318 "LibCurl" Eco
+319 "Inline::Scheme::Guile" Eco
+320 "Hashids" Eco
+321 "SeqSplitter" Eco
+322 "HTTP::Request::FormData" Eco
+323 "Sparrowform" Eco
+324 "RPi::Wiring::Pi" Core
+325 "Crypt::RSA" Eco
+326 "GDBM" Eco
+327 "App::Football" Eco
+328 "List::UtilsBy" Eco
+329 "WebService::AWS::S3" Eco
+330 "Manifesto" Eco
+331 "P6TCI" Core
+332 "XML" Core
+333 "RakudoPrereq" Core
+334 "Music::Engine" Eco
+335 "Test::META" Core
+336 "Tie::StdArray" Eco
+337 "IO::Socket::SSL" Core
+338 "Base64" Core
+339 "YAMLish" Core
+340 "Object::Container" Eco
+341 "Proc::InvokeEditor" Eco
+342 "HTTP::Tinyish" Eco
+343 "Base64::Native" Core
+344 "HTTP::UserAgent" Core
+345 "FanFou" Eco
+346 "CommonMark" Eco
+347 "DateTime::Parse" Core
+348 "Locale-Codes-Country" Eco
+349 "Linenoise" Eco
+350 "Audio::Hydrogen" Eco
+351 "FastCGI::NativeCall::Async" Eco
+352 "WebService::FootballData" Eco
+353 "MinG" Eco
+354 "Zef::Config" Core
+355 "SVG::Plot" Core
+356 "DBIish" Core
+357 "Powerline::Prompt" Eco
+358 "Font::AFM" Eco
+359 "P5chr" Core
+360 "Net::OSC" Core
+361 "Cro::SSL" Eco
+362 "Algorithm::Manacher" Eco
+363 "Build::Graph" Eco
+364 "Graffiks" Eco
+365 "TagLibC" Eco
+366 "Game::Sudoku" Eco
+367 "Concurrent::Progress" Eco
+368 "HTML::Entity" Core
+369 "Grammar::Tracer" Core
+370 "App::snippet" Eco
+371 "Color" Core
+372 "Sys::Hostname" Eco
+373 "Data::TextOrBinary" Eco
+374 "Font::FreeType" Eco
+375 "Archive::Libarchive" Eco
+376 "IO::Path::Dirstack" Eco
+377 "Algorithm::NaiveBayes" Eco
+378 "Grammar::ErrorReporting" Eco
+379 "HTML::Parser::XML" Core
+380 "JSON::Hjson" Eco
+381 "Hematite" Eco
+382 "Subsets::IO" Eco
+383 "PDF::Lite" Core
+384 "Math::Model" Eco
+385 "Image::QRCode" Eco
+386 "IO::Socket::Async::SSL" Eco
+387 "MIME::Base64" Core
+388 "AI::FANN" Eco
+389 "Test::When" Core
+390 "OAuth2::Client::Google" Eco
+391 "CPAN::Uploader::Tiny:ver<0.0.4+>" Core
+392 "Bailador" Eco
+393 "PathTools" Core
+394 "OrderedHash" Core
+395 "Wikidata::API" Eco
+396 "Proc::Screen" Eco
+397 "Unicode::PRECIS" Core
+398 "Bitcoin::RPC::Client" Eco
+399 "DOM::Tiny" Eco
+400 "Archive::Libarchive::Raw" Eco
+401 "IO::Notification::Recursive" Eco
+402 "Verge::RPC::Client" Eco
+403 "Readline" Eco
+404 "Test::Mock" Core
+405 "PerlStore::FileStore" Core
+406 "SCGI" Core
+407 "SQL::Lexer" Eco
+408 "FastCGI::NativeCall" Core
+409 "Log" Eco
+410 "Proc::More" Eco
+411 "HTML::Escape" Eco
+412 "Seq::PreFetch" Eco
+413 "File::Ignore" Eco
+414 "Temp::Path" Eco
+415 "X::Protocol" Eco
+416 "Test::ClientServer" Eco
+417 "Sparrowdo::Rvm" Eco
+418 "ANTLR4::Grammar" Eco
+419 "DispatchMap" Core
+420 "Git::Config" Eco
+421 "Test::Notice" Core
+422 "Data::StaticTable" Eco
+423 "BufUtils" Eco
+424 "Text::Sift4" Eco
+425 "zef" Eco
+426 "Subset::Helper" Core
+427 "IRC::Client::Plugin::Ignore" Eco
+428 "Hash::Merge:api<1>:version<1.0.0+>" Core
+429 "PDF" Core
+430 "Propius" Eco
+431 "NativeHelpers::CStruct" Core
+432 "HTTP::MultiPartParser" Core
+433 "Config::INI" Core
+434 "P5-X" Eco
+435 "WWW" Eco
+436 "LibYAML" Eco
+437 "Terminal::ANSIColor" Core
+438 "MessagePack::Class" Eco
+439 "App::GymScheduler" Eco
+440 "Toaster" Eco
+441 "Concurrent::Stack" Eco
+442 "Compress::Zlib" Core
+443 "Cro::HTTP" Core
+444 "Router::Boost" Eco
+445 "Algorithm::LibSVM" Eco
+446 "Sparrowdo::Rakudo" Eco
+447 "DBIx::NamedQueries" Core
+448 "Config" Eco
+449 "Sparrowdo::Cpm" Eco
+450 "META6::To::Man" Eco
+451 "Text::Wrap" Core
+452 "NativeCall" Core
+453 "EventSource::Server" Eco
+454 "System::Passwd" Core
+455 "P5oct" Eco
+456 "P5chop" Eco
+457 "Test" Core
 *arcs
-34 309 1 
-34 254 1 
-34 357 1 
-270 281 1 
-146 395 1 
-146 281 1 
-146 237 1 
-112 107 1 
-112 246 1 
-112 106 1 
-112 402 1 
-350 422 1 
-350 76 1 
-202 106 1 
-312 86 1 
-284 7 1 
-284 173 1 
-284 240 1 
-284 106 1 
-284 247 1 
-284 221 1 
-284 380 1 
-264 114 1 
-217 106 1 
-151 106 1 
-151 247 1 
-80 106 1 
-80 281 1 
-180 22 1 
-293 94 1 
-148 236 1 
-148 332 1 
-148 133 1 
-148 281 1 
-148 237 2 
-161 106 1 
-161 174 1 
-199 236 1 
-199 183 1 
-199 26 1 
-199 333 1 
-199 358 1 
-199 442 1 
-199 449 1 
-73 297 1 
-73 106 1 
-73 281 1 
-91 106 1 
-91 281 1 
-91 9 1 
-103 395 1 
-103 407 1 
-103 106 1 
-103 281 1 
-107 246 1 
-111 246 1 
-324 106 1 
-149 346 1 
-53 298 1 
-3 197 1 
-60 72 1 
-60 69 1 
-60 237 1 
-20 366 1 
-424 246 1 
-424 106 1 
-319 435 1 
-319 302 1 
-248 109 1 
-248 72 1 
-248 106 1 
-136 328 1 
-136 361 1 
-31 106 1 
-13 207 2 
-370 7 1 
-370 106 1 
-370 235 1 
-260 246 1 
-455 79 1 
-455 74 1 
-455 412 1 
-455 397 1 
-455 106 1 
-455 283 1 
-1 351 1 
-1 281 1 
-239 109 1 
-239 22 1 
-239 106 1 
-239 206 1 
-296 280 1 
-296 106 1 
-296 281 1 
-296 375 1 
-158 281 1 
-55 125 1 
-453 104 1 
-128 281 2 
-165 246 1 
-138 395 1 
-138 281 1 
-65 150 1 
-65 409 1 
-65 40 1 
-65 115 1 
-65 230 1 
-65 237 1 
-65 449 1 
-25 114 1 
-113 331 1 
-113 247 1 
-68 104 1 
-310 236 1 
-310 333 1 
-310 210 1 
-310 247 1 
-67 98 1 
-67 281 1 
-216 281 1 
-416 332 1 
-416 106 1 
-416 281 1 
-372 210 1 
-372 106 1 
-201 452 1 
-201 361 1 
-201 281 1 
-201 357 1 
-445 281 1 
-423 246 1 
-435 352 1 
-411 364 1 
-411 210 1 
-411 281 1 
-411 237 1 
-58 358 1 
-122 57 1 
-122 197 1 
-122 287 1 
-122 292 1 
-122 271 1 
-250 422 1 
-170 64 1 
-170 210 1 
-170 281 1 
-185 249 1 
-185 281 1 
-83 106 1 
-215 94 1 
-215 398 1 
-215 257 1 
-215 237 1 
-215 135 1 
-406 22 1 
-406 281 1 
-367 106 1 
-422 452 1 
-422 405 1 
-422 72 1 
-422 338 1 
-422 365 1 
-422 246 1 
-422 78 1 
-241 102 1 
-241 106 1 
-241 254 1 
-241 45 1 
-399 106 1 
-399 254 1 
-74 15 1 
-74 213 1 
-74 106 1 
-302 173 1 
-302 332 1 
-302 247 1 
-29 281 1 
-225 106 1 
-253 106 1 
-253 237 1 
-297 106 1 
-297 281 1 
-430 308 1 
-178 433 1 
-368 145 1 
-368 106 1 
-320 106 1 
-342 212 1 
-342 106 1 
-342 254 1 
-342 357 1 
-436 215 1 
-436 72 1 
-436 210 1 
-436 15 1 
-436 233 1 
-436 12 1 
-436 22 1 
-436 95 1 
-56 395 1 
-56 407 1 
-56 106 1 
-56 281 1 
-299 422 1 
-295 22 1 
-295 135 1 
-63 452 1 
-63 191 1 
-63 241 1 
-63 210 1 
-63 15 1 
-63 106 1 
-63 254 1 
-63 62 1 
-63 357 1 
-63 237 1 
-365 106 1 
-154 106 1 
-61 325 1 
-61 37 1 
-61 7 1 
-61 97 1 
-61 202 1 
-61 261 1 
-61 15 1 
-61 388 1 
-61 22 2 
-61 106 2 
-61 311 1 
-61 326 1 
-61 237 1 
-209 104 1 
-338 400 1 
-338 187 1 
-338 190 1 
-338 456 1 
-338 332 1 
-338 144 1 
-338 287 1 
-338 72 1 
-338 210 1 
-338 184 1 
-338 15 1 
-338 12 1 
-338 227 1 
-338 22 1 
-338 398 1 
-338 108 1 
-338 334 1 
-338 369 1 
-338 237 1 
-200 210 1 
-200 249 1 
-200 390 1 
-358 102 1 
-358 407 1 
-358 3 1 
-358 281 1 
-81 281 1 
-327 281 1 
-313 395 1 
-313 281 1 
-266 395 1 
-266 302 1 
-266 281 1 
-137 220 1 
-432 42 1 
-62 106 1 
-62 254 1 
-403 191 1 
-403 407 1 
-403 254 1 
-268 314 1 
-303 69 1 
-303 157 1 
-303 85 1 
-357 392 1 
-357 106 1 
-357 108 1 
-357 254 1 
-232 106 1 
-232 254 1 
-294 246 1 
-454 173 1 
-454 156 1 
-454 419 1 
-454 287 1 
-454 204 1 
-454 453 1 
-454 247 1 
-454 106 2 
-286 129 1 
-286 450 1 
-286 362 1 
-286 115 1 
-286 441 1 
-426 114 1 
-396 405 1 
-396 191 1 
-396 409 1 
-396 302 1 
-396 281 1 
-396 221 1 
-396 237 1 
-421 247 2 
-421 106 2 
-421 281 2 
-139 72 1 
-139 247 1 
-139 285 1 
-123 22 3 
-123 281 3 
-214 155 1 
-214 281 1 
-273 3 1 
-273 85 1 
-79 267 1 
-79 106 1 
-205 346 1 
-205 22 1 
-349 395 1 
-349 407 1 
-349 22 1 
-349 106 1 
-349 281 1 
-191 236 1 
-191 407 1 
-191 333 1 
-191 106 1 
-191 281 1 
-191 237 1 
-429 106 1 
-429 281 1 
-11 452 2 
-11 39 1 
-145 281 1 
-439 106 1 
-439 281 1 
-363 281 1 
-152 457 1 
-152 249 1 
-378 8 1 
-378 237 1 
-179 337 1 
-179 281 1 
-75 395 1 
-75 281 1 
-109 420 1 
-109 106 1 
-291 106 1 
-291 281 1 
-48 106 1 
-48 281 1 
-48 9 1 
-267 182 2 
-267 210 2 
-267 163 2 
-448 177 1 
-448 166 1 
-448 167 1 
-176 21 1 
-176 89 1 
-176 181 1 
-93 106 1 
-93 235 1 
-93 126 1 
-35 187 1 
-35 236 1 
-35 252 1 
-35 318 1 
-35 177 1 
-35 160 1 
-35 118 1 
-35 166 1 
-35 351 1 
-35 133 1 
-35 210 1 
-35 227 1 
-35 271 1 
-35 22 1 
-35 104 1 
-35 388 1 
-35 246 1 
-35 247 1 
-35 326 1 
-35 369 1 
-35 283 1 
-35 385 1 
-35 95 1 
-35 413 1 
-35 71 1 
-35 147 1 
-35 452 1 
-35 175 1 
-35 346 1 
-35 173 1 
-35 208 1 
-35 419 1 
-35 332 1 
-35 52 1 
-35 428 1 
-35 437 1 
-35 287 1 
-35 144 1 
-35 302 1 
-35 197 1 
-35 72 1 
-35 234 1 
-35 164 1 
-35 15 1 
-35 90 1 
-35 338 1 
-35 317 1 
-35 434 1 
-35 209 1 
-35 414 1 
-35 398 1 
-35 10 1 
-35 70 1 
-35 330 1 
-35 194 1 
-35 117 1 
-412 281 1 
-412 174 1 
-4 104 1 
-4 281 1 
-143 106 1 
-143 281 1 
-49 266 1 
-49 281 1 
-376 106 1 
-376 281 1 
-376 9 1 
-255 262 1 
-116 395 1 
+127 92 1 
+127 335 1 
+127 333 1 
+127 421 1 
+100 457 1 
+95 162 1 
+95 335 1 
+95 457 1 
+319 16 1 
+319 457 1 
+168 255 1 
+168 164 1 
+168 374 1 
+168 368 1 
+168 343 1 
+168 175 1 
+168 371 1 
+342 311 1 
+199 335 1 
+199 452 1 
+199 389 1 
+199 457 1 
+133 128 1 
+133 281 1 
+133 328 1 
+49 335 1 
+49 457 1 
+161 138 1 
+161 173 1 
+161 399 1 
+161 47 1 
+161 435 1 
+161 389 1 
+244 335 1 
+244 314 1 
+244 96 1 
+123 457 1 
+11 335 1 
+185 92 1 
+185 335 1 
+265 16 1 
+303 81 1 
+303 448 1 
+303 335 1 
+303 392 1 
+115 92 1 
+115 335 1 
+222 91 1 
+222 308 1 
+222 276 1 
+105 311 1 
+105 457 1 
+455 41 1 
+423 457 1 
+386 249 1 
+309 307 1 
+309 335 1 
+427 81 1 
+212 196 1 
+212 457 1 
+284 215 1 
+284 457 1 
+2 204 1 
+2 387 1 
+2 181 1 
+2 335 1 
+2 17 1 
+2 107 1 
+2 308 1 
+390 255 1 
+390 344 1 
+390 337 1 
+260 16 1 
+87 255 1 
+87 443 1 
+87 339 1 
+87 63 1 
+87 142 1 
+258 255 1 
+258 437 1 
+258 27 1 
+258 457 1 
+46 104 1 
+305 255 2 
+305 92 1 
+305 414 1 
+305 389 1 
+436 255 1 
+436 452 1 
+436 457 1 
+193 7 1 
+193 47 1 
+193 339 1 
+193 392 1 
+193 64 1 
+193 104 1 
+193 356 1 
+246 255 1 
+246 165 1 
+399 335 1 
+399 457 1 
+438 206 1 
+267 104 1 
+231 335 1 
+231 447 1 
+231 392 1 
+402 204 1 
+402 255 1 
+402 7 1 
+402 50 1 
+402 435 1 
+402 343 1 
+402 457 1 
+414 92 1 
+414 299 1 
+414 335 1 
+414 266 1 
+300 457 1 
+430 42 1 
+430 163 1 
+370 234 1 
+370 85 1 
+370 403 1 
+370 393 1 
+370 335 1 
+370 160 1 
+435 255 1 
+435 344 1 
+435 335 1 
+435 389 1 
+435 457 1 
+435 337 1 
+257 91 1 
+259 310 1 
+259 138 1 
+259 387 1 
+259 265 1 
+259 282 1 
+259 137 1 
+259 335 2 
+259 308 1 
+121 218 1 
+121 457 1 
+327 352 1 
+327 295 1 
+327 132 1 
+327 457 1 
+440 127 1 
+440 255 1 
+440 92 1 
+440 437 1 
+440 335 1 
+440 414 1 
+440 435 1 
+440 115 1 
+440 110 1 
+440 356 1 
+248 399 1 
+248 335 1 
+248 457 1 
+453 457 1 
+77 354 1 
+77 255 1 
+77 311 2 
+77 79 1 
+77 181 1 
+77 413 1 
+77 11 1 
+77 130 1 
+77 214 1 
+77 335 2 
+77 110 1 
+77 37 1 
+77 270 1 
+146 104 1 
+142 255 1 
+142 339 1 
+142 235 1 
+90 335 1 
+90 457 1 
+330 457 1 
+290 454 1 
+174 457 1 
+31 81 1 
+31 448 1 
+140 335 1 
+140 324 1 
+106 311 1 
+106 118 1 
+378 335 1 
+302 443 1 
+395 335 2 
+395 221 2 
+395 107 2 
+395 457 2 
+395 308 2 
+48 34 1 
+19 335 1 
+147 112 1 
+147 374 1 
+147 429 1 
+147 144 1 
+147 383 1 
+45 457 1 
+33 451 1 
+33 437 1 
+33 256 1 
+33 73 1 
+33 339 1 
+33 308 1 
+176 236 1 
+200 16 1 
+250 209 1 
+23 452 1 
+23 457 1 
+71 335 1 
+71 457 1 
+417 335 1 
+417 104 1 
+239 338 1 
+239 249 1 
+239 282 1 
+239 397 1 
+239 316 1 
+167 179 1 
+167 308 1 
+74 215 1 
+74 425 1 
+13 255 1 
+13 342 1 
+13 288 1 
+13 118 1 
+13 78 1 
+219 431 1 
+219 356 2 
+287 16 1 
+287 294 1 
+287 311 1 
+287 387 1 
+287 122 1 
+287 437 1 
+287 54 1 
+287 162 1 
+287 221 1 
+287 282 1 
+287 160 1 
+287 406 1 
+287 62 1 
+287 392 1 
+287 22 1 
+287 113 1 
+287 110 1 
+287 356 1 
+287 98 1 
+287 308 1 
+287 104 1 
+287 196 1 
+287 338 1 
+287 331 1 
+287 242 1 
+287 154 1 
+287 138 1 
+287 442 1 
+287 66 1 
+287 262 1 
+287 99 1 
+287 79 1 
+287 207 1 
+287 44 1 
+287 187 1 
+287 279 1 
+287 288 1 
+287 344 1 
+287 50 1 
+287 194 1 
+287 101 1 
+287 404 1 
+287 214 1 
+287 332 1 
+287 70 1 
+287 93 1 
+287 202 1 
+287 349 1 
+287 249 1 
+287 198 1 
+287 339 1 
+287 35 1 
+287 355 1 
+287 190 1 
+287 213 1 
+287 1 1 
+60 335 1 
+227 52 1 
+184 92 1 
+184 335 1 
+184 414 1 
+184 333 1 
+380 335 1 
+380 308 1 
+188 457 1 
+352 255 2 
+352 404 1 
+352 162 1 
+352 344 1 
+352 457 1 
+80 289 1 
+80 335 1 
+80 457 1 
+445 16 1 
+192 335 1 
+192 452 1 
+192 389 1 
+192 457 1 
+182 226 1 
+182 267 1 
+182 335 1 
+182 104 1 
+252 230 1 
+252 335 1 
+384 294 1 
+384 59 1 
+384 355 1 
+398 204 1 
+398 255 1 
+398 7 1 
+398 50 1 
+398 435 1 
+398 343 1 
+398 457 1 
+456 65 1 
+68 335 1 
+318 255 1 
+318 452 1 
+318 389 1 
+318 457 1 
+217 457 1 
+183 92 1 
+183 335 1 
+279 457 1 
+247 335 1 
+247 6 1 
+247 433 1 
+247 457 1 
+125 452 1 
+125 457 1 
+170 289 1 
+170 335 1 
+170 457 1 
+314 335 1 
+263 311 1 
+263 335 1 
+137 310 1 
+137 335 1 
+137 308 1 
+124 335 1 
+143 344 1 
+143 335 1 
+143 221 1 
+143 457 1 
+143 337 1 
+143 308 1 
+381 409 1 
+381 256 1 
+381 99 1 
+381 9 1 
+323 293 1 
+323 437 1 
+323 7 1 
+323 308 1 
+323 104 1 
+317 335 1 
+317 457 1 
+29 335 2 
+286 104 1 
+39 289 1 
+39 335 1 
+39 457 1 
+268 335 1 
+268 457 1 
+292 335 1 
+450 181 1 
+450 335 1 
+450 96 1 
+253 335 1 
+253 96 1 
+230 335 1 
+88 324 1 
+226 104 1 
+119 193 1 
+234 335 1 
+234 151 1 
+326 242 1 
+326 16 1 
+197 437 1 
+197 344 1 
+197 337 1 
+197 308 1 
+85 335 1 
+85 110 1 
+85 166 1 
+109 255 1 
+109 335 1 
+120 448 1 
+120 335 1 
+120 339 1 
+448 335 1 
+448 428 1 
+94 405 1 
+94 81 1 
+400 50 1 
+400 452 1 
+400 457 1 
+277 242 1 
+416 457 1 
+261 132 1 
+385 457 1 
+135 163 1 
+135 414 1 
+135 457 1 
+135 356 1 
+301 16 1 
+301 452 1 
+25 193 1 
+136 192 1 
+136 199 1 
+136 335 1 
+136 452 1 
+136 389 1 
+136 457 1 
+55 118 1 
+26 311 1 
+26 335 1 
+26 452 1 
+26 389 1 
+26 457 1 
+178 281 1 
+220 359 1 
+177 52 1 
+58 335 1 
+58 457 1 
+139 335 1 
+139 457 1 
+189 411 1 
+117 335 1 
+117 452 1 
+117 389 1 
+117 457 1 
+322 335 1 
+322 457 1 
+255 457 1 
+159 82 1 
+159 111 1 
+159 81 1 
+159 344 1 
+159 379 1 
+159 368 1 
+159 337 1 
+449 104 1 
+102 335 1 
+102 457 1 
+275 457 2 
+375 400 1 
+375 457 1 
+403 233 1 
+403 457 1 
+313 104 1 
+195 342 1 
+158 273 1 
+357 3 1 
+269 437 1 
+269 335 1 
+349 16 1 
+172 184 1 
+172 92 1 
+172 335 1 
+172 414 1 
+56 437 1 
+56 335 1 
+420 335 1 
+345 387 1 
+345 162 1 
+345 299 1 
+345 150 1 
+345 221 1 
+345 282 1 
+345 35 1 
+63 347 1 
+63 155 1 
+63 235 1 
+151 36 2 
+151 437 2 
+151 8 2 
+108 52 1 
+346 335 1 
+365 335 1 
+365 233 1 
+350 243 1 
+350 457 1 
+446 335 1 
+446 104 1 
+43 391 1 
+43 242 1 
+43 311 1 
+43 79 1 
+43 24 1 
+43 110 1 
+30 437 1 
+30 215 1 
+30 369 1 
+283 255 1 
+283 16 1 
+283 234 1 
+283 335 1 
+15 92 1 
+15 335 1 
+75 311 1 
+75 448 1 
+75 335 1 
+75 296 1 
+169 457 1 
+169 356 1 
+204 335 1 
+210 308 1 
+210 104 1 
+153 255 2 
+153 92 1 
+153 229 1 
+153 389 1 
+238 457 1 
+410 311 1 
+40 18 1 
+40 451 1 
+40 255 1 
+40 392 1 
+40 457 1 
+241 452 1 
+241 457 1 
+180 156 2 
+126 335 1 
+271 335 1 
+271 332 1 
+374 16 1 
+148 215 1 
+148 335 1 
+148 457 1 
+201 437 1 
+201 311 1 
+201 256 1 
+201 132 1 
+201 198 1 
+201 339 1 
+201 13 1 
+201 110 1 
+396 311 3 
+396 457 3 
+439 437 1 
+439 305 1 
+439 457 1 
+367 84 1 
+351 408 1 
+351 457 1 
+61 101 1 
+329 255 1 
+329 243 1 
+329 162 1 
+329 344 1 
+329 282 1 
+329 221 1 
+329 35 1 
+329 337 1 
+329 457 2 
+418 335 2 
+418 308 2 
+418 457 2 
+392 272 1 
+392 255 1 
+392 437 1 
+392 122 1 
+392 89 1 
+392 311 1 
+392 256 1 
+392 162 1 
+392 288 1 
+392 221 1 
+392 69 1 
+392 282 1 
+392 339 1 
+392 432 1 
+392 62 1 
+392 35 1 
+392 203 1 
+392 110 1 
+392 266 1 
+4 311 1 
+4 280 1 
+4 344 1 
+4 216 1 
+334 53 1 
+334 222 1 
+334 360 1 
+129 443 1 
+129 125 1 
+129 335 1 
+114 50 1 
+114 367 1 
+320 335 1 
+320 457 1 
+224 339 1 
+224 419 1 
+224 308 1 
+81 421 1 
+81 389 1 
+81 386 1 
+81 457 1 
+232 226 1 
+232 267 1 
+232 104 1 
+72 394 1 
 116 104 1 
-355 277 1 
-355 437 1 
-355 259 1 
-355 12 1 
-427 415 1 
-427 187 1 
-427 173 1 
-427 332 1 
-427 287 1 
-427 392 1 
-427 369 1 
-443 106 1 
-269 301 1 
-269 338 1 
-269 281 1 
-269 431 1 
-269 237 1 
-276 160 1 
-276 106 1 
-282 106 1 
-124 405 1 
-124 191 1 
-124 409 1 
-124 302 1 
-124 281 1 
-124 221 1 
-124 237 1 
-94 22 1 
-238 106 1 
-347 104 1 
-381 374 1 
-224 236 1 
-224 297 1 
-224 281 1 
-224 369 1 
-47 169 1 
-32 106 1 
-32 254 1 
-440 72 1 
-440 60 1 
-440 303 1 
-440 237 1 
-440 262 1 
-89 42 1 
-89 247 1 
-89 322 1 
-126 106 1 
-17 15 1 
-402 246 1 
-354 236 1 
-354 333 1 
-354 106 1 
-354 247 1 
-354 281 1 
-354 369 1 
-387 106 1 
-387 313 1 
-387 262 1 
-14 245 1 
-222 395 1 
-222 407 1 
-222 56 1 
-222 106 1 
-222 408 1 
-222 281 1 
-404 154 1 
-404 106 1 
-121 106 1 
-30 395 1 
-30 407 1 
-30 281 1 
-30 237 1 
-226 22 1 
-226 106 1 
-386 188 1 
-386 210 1 
-386 72 1 
-386 12 1 
-386 247 1 
-386 431 1 
-82 346 1 
-82 24 1 
-82 15 1 
-82 22 1 
-82 388 1 
-82 289 1 
-274 407 1 
-274 254 1 
-274 403 1 
-274 237 2 
-87 281 1 
-41 109 1 
-41 358 1 
-265 109 1 
-265 338 1 
-265 106 1 
-265 358 1 
-263 218 1 
-263 6 1 
-263 43 1 
-360 236 1 
-360 22 1 
-360 394 1 
-360 162 1 
-64 407 1 
-64 254 1 
-64 357 1 
-64 237 2 
-377 233 1 
-393 246 1 
-343 246 1 
-343 247 1 
-156 204 1 
-156 106 1 
-156 247 1 
-258 281 1 
-344 187 1 
-344 236 1 
-344 337 1 
-344 332 1 
-344 287 1 
-344 333 1 
-344 369 1 
-344 281 2 
-344 237 1 
-382 107 1 
-382 246 1 
-382 402 1 
-389 405 1 
-389 210 1 
-389 246 1 
-389 247 1 
-389 401 1 
-307 281 1 
-336 346 1 
-336 104 1 
-115 104 1 
-278 106 1 
-278 281 1 
-229 236 1 
-229 333 1 
-229 237 1 
-142 106 1 
-23 135 1 
-120 106 2 
-383 210 1 
-383 106 1 
-256 234 1 
-198 22 1 
-212 106 1 
-212 254 1 
-212 45 1 
-212 357 1 
-272 191 1 
-272 419 1 
-272 19 1 
-272 297 1 
-272 407 1 
-272 78 1 
-434 281 1 
-243 106 1 
-243 281 1 
-189 452 1 
-189 281 1 
-371 114 1 
-192 106 2 
-192 247 2 
-192 281 2 
-192 369 2 
-192 380 2 
-2 106 1 
-2 219 1 
-316 104 1 
-84 106 1 
-84 281 1 
-27 106 1 
-27 281 1 
-408 395 1 
-408 407 1 
-408 106 1 
-408 281 1 
-132 218 1 
-251 148 1 
-251 51 1 
-251 233 1 
-251 281 1 
-153 249 1 
-153 106 1 
-153 281 1 
-305 246 1 
-305 106 1 
-211 106 1 
-211 281 1 
-335 281 1 
-228 79 1 
-228 104 1 
-228 106 1 
-228 237 1 
-101 338 1 
-101 106 1 
-101 141 1 
-353 444 1 
-353 358 1 
-36 438 1 
-244 281 1 
-221 106 1 
-359 109 1 
-359 106 1 
-359 226 1 
-223 219 1 
-110 106 1 
-110 235 1 
-237 281 1 
+401 110 1 
+103 193 1 
+103 278 1 
+341 311 1 
+307 457 1 
+50 387 1 
+50 162 1 
+50 308 1 
+97 399 1 
+97 344 1 
+97 221 1 
+97 457 1 
+229 92 1 
+229 435 1 
+229 389 1 
+51 335 1 
+361 155 1 
+361 386 1 
+157 335 1 
+382 92 1 
+382 414 1 
+382 426 1 
+336 52 1 
+205 335 1 
+64 335 1 
+285 448 1 
+285 335 1 
+285 263 1 
+363 242 1 
+363 311 1 

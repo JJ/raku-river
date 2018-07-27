@@ -7,3 +7,7 @@ sn <- sankeyNetwork(Links = issues$links, Nodes = issues$nodes, Source = "source
                     Target = "target", Value = "value", NodeID = "name",
                     units = "commits", fontSize = 20, nodeWidth=30)
 sn %>% saveNetwork( file= 'sankey.html' )
+
+tree <- forceNetwork(Links = issues$links, Nodes = issues$nodes, Source = "source",
+                     Target = "target", Value = "value", NodeID = "name",
+                      fontSize = 20)
