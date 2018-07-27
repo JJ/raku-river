@@ -1,0 +1,1108 @@
+*Vertices 457
+1 "Linux::Process::SignalInfo"
+2 "RPi::Device::ST7036"
+3 "IO::Socket::Async::SSL"
+4 "Inline::Scheme::Guile"
+5 "Router::Boost"
+6 "List::UtilsBy"
+7 "META6"
+8 "Net::HTTP::POST"
+9 "Pod::To::Text"
+10 "Grammar::Profiler::Simple"
+11 "Pg::Notify"
+12 "Template::Mustache"
+13 "Distribution::Builder::MakeFromJSON"
+14 "Trie"
+15 "File::Find"
+16 "Lingua::EN::Conjugate"
+17 "IO::Notification::Recursive"
+18 "Sum"
+19 "Pastebin::Gist"
+20 "CoreHackers::Q"
+21 "Math::Curves"
+22 "File::Temp"
+23 "HandleSupplier"
+24 "CPAN::Uploader::Tiny:ver<0.0.4+>"
+25 "Tie::Hash"
+26 "IRC::TextColor"
+27 "Punnable"
+28 "Algorithm::Manacher"
+29 "BufUtils"
+30 "LibCurl"
+31 "CommonMark"
+32 "Lingua::Stopwords"
+33 "SemVer"
+34 "Subsets::IO"
+35 "Task::Galaxy"
+36 "Linux::Fuser"
+37 "Zef::Client"
+38 "Graffiks"
+39 "NativeHelpers::CStruct"
+40 "CSS::Declarations"
+41 "IRC::Client::Plugin::NickServ"
+42 "Serialise::Map"
+43 "List::Util"
+44 "Hash::Util"
+45 "RakudoPrereq"
+46 "PriorityQueue"
+47 "Powerline::Prompt"
+48 "Lingua::Lipogram"
+49 "Archive::Libarchive"
+50 "CompUnit::Repository::Mask"
+51 "Text::Table::Simple"
+52 "CSS::Grammar"
+53 "P5chop"
+54 "Net::LibIDN"
+55 "P5ucfirst"
+56 "epoll"
+57 "Unicode::PRECIS"
+58 "IRC::Client::Plugin::Ignore"
+59 "Algorithm::MinMaxHeap"
+60 "OpenAPI::Model"
+61 "Ddt"
+62 "WhereList"
+63 "Toaster"
+64 "Config::JSON"
+65 "HTML::Canvas"
+66 "Algorithm::GooglePolylineEncoding"
+67 "MQ::Posix"
+68 "Algorithm::LibSVM"
+69 "JSON::Pointer"
+70 "JSON::RPC"
+71 "DateTime::Format"
+72 "YAMLish"
+73 "Template::Anti"
+74 "Pluggable"
+75 "Math::Primesieve"
+76 "TelegramBot"
+77 "Shell::Capture"
+78 "Text::Markdown"
+79 "Getopt::Advance"
+80 "Algorithm::Evolutionary::Simple"
+81 "Slang::AltTernary"
+82 "App::Mi6"
+83 "PostCocoon::Url"
+84 "Chemistry::Elements"
+85 "Cro::Core"
+86 "Data::MessagePack"
+87 "Manifesto"
+88 "P5-X"
+89 "ScaleVec"
+90 "007"
+91 "Lingua::Pangram"
+92 "Sub::Name"
+93 "Net::IP"
+94 "HTTP::Tinyish"
+95 "Template6"
+96 "Time::Duration::Parser"
+97 "Zef::Config"
+98 "NativeHelpers::Array"
+99 "Algorithm::Elo"
+100 "Scalar::Util"
+101 "Bailador::Plugin::NamedQueries"
+102 "Test::Notice"
+103 "Munge"
+104 "LibraryMake"
+105 "Crypt::RSA"
+106 "Test::META"
+107 "Sparrowdo::RemoteFile"
+108 "File::Directory::Tree"
+109 "Config"
+110 "My::Module"
+111 "Sparrowdo::Sparrow::Update"
+112 "Sparrowdo::Cpanm::GitHub"
+113 "LIVR"
+114 "P5tie"
+115 "Font::FreeType"
+116 "Fcntl"
+117 "SCGI"
+118 "CompUnit::Util"
+119 "Acme::Test::Module"
+120 "Operator::grandpa"
+121 "Git::Config"
+122 "Auth::SCRAM"
+123 "Proc::Screen"
+124 "Verge::RPC::Client"
+125 "P5lcfirst"
+126 "Number::More"
+127 "Object::Container"
+128 "Test::SourceFiles"
+129 "PDF::Lite"
+130 "Concurrent::BoundedChannel"
+131 "Algorithm::DawkinsWeasel"
+132 "List::SomeUtils"
+133 "Test::Mock"
+134 "Serialize::Naive"
+135 "IO::Blob"
+136 "Propius"
+137 "P5ord"
+138 "TCC"
+139 "Spit"
+140 "Font::AFM"
+141 "DBIx::NamedQueries"
+142 "SQL::NamedPlaceholder"
+143 "HTTP::Request::FormData"
+144 "HTTP::Easy"
+145 "Perl6::Parser"
+146 "LibYAML"
+147 "P6TCI"
+148 "WebService::FootballData"
+149 "Build::Simple"
+150 "Color"
+151 "JSON::Hjson"
+152 "Chart::Gnuplot"
+153 "Text::Template"
+154 "Test::Deeply::Relaxed"
+155 "FastCGI::NativeCall"
+156 "Log::ZMQ"
+157 "DateTime::Parse"
+158 "Image::QRCode"
+159 "SQL::Lexer"
+160 "XML"
+161 "TagLibC"
+162 "HTTP::Server::Async"
+163 "Terminal::WCWidth"
+164 "Email::Simple"
+165 "Sparrowdo::Nginx"
+166 "SVG::Plot"
+167 "Math::RungeKutta"
+168 "P5__FILE__"
+169 "Git::Simple"
+170 "App::GymScheduler"
+171 "Pod::EOD"
+172 "Terminal::Spinners"
+173 "MIME::Base64"
+174 "LibraryCheck"
+175 "Grammar::Debugger"
+176 "Music::Engine"
+177 "SVG"
+178 "P5oct"
+179 "Audio::Hydrogen"
+180 "Proc::InvokeEditor"
+181 "Net::OSC"
+182 "Text::Tabs"
+183 "HTML::Parser::XML"
+184 "Log::Any"
+185 "Test::Declare"
+186 "Sys::Hostname"
+187 "Digest"
+188 "CommandLine::Usage"
+189 "DBI::Async"
+190 "Path::Iterator"
+191 "WWW"
+192 "Wikidata::API"
+193 "Data::Selector"
+194 "BioPerl6"
+195 "Getopt::Long"
+196 "Backtrace::AsHTML"
+197 "OpenSSL"
+198 "Proc::More"
+199 "IRC::Client::Plugin::UrlTitle"
+200 "Log::Minimal"
+201 "Reminders"
+202 "License::Software"
+203 "IO::String"
+204 "Net::ZMQ:auth('github:gabrielash')"
+205 "Build::Graph"
+206 "Config::TOML"
+207 "System::Query"
+208 "XML::Writer"
+209 "Linenoise"
+210 "Terminal::ANSIColor"
+211 "Hashids"
+212 "IO::CatHandle::AutoLines"
+213 "SVG::Plot::Pie"
+214 "FastCGI::NativeCall::Async"
+215 "HTTP::Server::Tiny"
+216 "MsgPack"
+217 "Lingua::Stem::Es"
+218 "List::MoreUtils"
+219 "RPi::Wiring::Pi"
+220 "P5chr"
+221 "Slippy::Semilist"
+222 "DB::Pg"
+223 "RPi::ButtonWatcher"
+224 "WWW::vlc::Remote"
+225 "Hash::Merge"
+226 "MPD::Client"
+227 "Template::Mojo"
+228 "App::FindSource"
+229 "OAuth2::Client::Google"
+230 "Cairo"
+231 "AI::FANN"
+232 "Benchy"
+233 "Test::Output"
+234 "Test::Meta"
+235 "Text::More"
+236 "HTTP::UserAgent"
+237 "JSON::Fast"
+238 "Geo::Ellipsoid"
+239 "Config::Parser::toml"
+240 "Git::Config:auth<github:gfldex>"
+241 "Proc::Q"
+242 "Data::StaticTable"
+243 "Data::Dump::Tree"
+244 "Linux::Cpuinfo"
+245 "OrderedHash"
+246 "Sparrowdo"
+247 "JSON::Tiny"
+248 "Config::Parser::yaml"
+249 "IO::Capture::Simple"
+250 "Sparky::Plugin::Notify::Email"
+251 "App::Football"
+252 "BioInfo"
+253 "Color::Names"
+254 "Testo"
+255 "Cro::HTTP::Test"
+256 "Foo::Bar"
+257 "HTTP::Parser"
+258 "Format::Lisp"
+259 "Log"
+260 "Sparrowdo::Cpm"
+261 "File::Ignore"
+262 "Cro::HTTP"
+263 "List::AllUtils"
+264 "Tie::Array"
+265 "IRC::Client::Plugin::Github"
+266 "Archive::Libarchive::Raw"
+267 "Terminal::Table"
+268 "P5rindex"
+269 "GraphQL"
+270 "Proxee"
+271 "Base64"
+272 "Acme::Advent::Highlighter"
+273 "Cro::SSL"
+274 "p6lert"
+275 "Proc::Editor"
+276 "XML::XPath"
+277 "MIME::Types"
+278 "Hash::MultiValue"
+279 "Algorithm::AhoCorasick"
+280 "Config::INI"
+281 "Test"
+282 "Color::Named"
+283 "File::Which"
+284 "META6::bin"
+285 "DispatchMap"
+286 "PDF::Font::Loader"
+287 "Digest::HMAC"
+288 "Supply::Timeout"
+289 "JSON::Pretty"
+290 "SeqSplitter"
+291 "ArrayHash"
+292 "PKCS5"
+293 "CPAN::Uploader::Tiny"
+294 "Sparrowdo::Goss"
+295 "Stream::Buffered"
+296 "AWS::Session"
+297 "DOM::Tiny"
+298 "P5chomp"
+299 "Sparky::Plugin::Hello"
+300 "Data::TextOrBinary"
+301 "Cro::HTTP::Router"
+302 "LWP::Simple"
+303 "OpenAPI::Schema::Validate"
+304 "Dice::Roller"
+305 "Sparrowdo::Rvm"
+306 "Swedish::TextDates_sv"
+307 "Games::TauStation::DateTime"
+308 "P5lc"
+309 "Subset::Helper"
+310 "Questhub"
+311 "Zef::Identity"
+312 "MessagePack::Class"
+313 "Redis::Async"
+314 "P5index"
+315 "Sub::Util"
+316 "MeCab"
+317 "Debugger::UI::CommandLine"
+318 "Pod::To::HTML"
+319 "SSH::LibSSH"
+320 "Grammar::ErrorReporting"
+321 "Slang::Predicate"
+322 "Result"
+323 "SDL2::Raw"
+324 "Proc::Async::Timeout"
+325 "Zef::Distribution"
+326 "Zef"
+327 "Test::ClientServer"
+328 "TimeUnit"
+329 "Git::Wrapper"
+330 "PSGI"
+331 "Email::Valid"
+332 "URI"
+333 "IO::Socket::SSL"
+334 "TAP::Harness"
+335 "EventSource::Server"
+336 "GDBM"
+337 "XML::Class"
+338 "Bailador"
+339 "Seq::PreFetch"
+340 "Concurrent::Stack"
+341 "Control::Bail"
+342 "LN"
+343 "Sparrowdo::Chef::Client"
+344 "WebService::AWS::S3"
+345 "HTTP::Headers"
+346 "Shell::Command"
+347 "Geo::Hash"
+348 "IO::Path::Dirstack"
+349 "LibGit2"
+350 "Sparky::Plugin::Notify::Telegram"
+351 "panda"
+352 "Test::Scheduler"
+353 "IRC::Client::Plugin::UserPoints"
+354 "Matrix::Client"
+355 "Hematite"
+356 "Ident::Client"
+357 "Temp::Path"
+358 "IRC::Client"
+359 "App::MPD::AutoQueue"
+360 "Test::HTTP::Server"
+361 "OO::Monitors"
+362 "PDF"
+363 "IO::Prompt"
+364 "Net::HTTP"
+365 "Time::Crontab"
+366 "HTML::Escape"
+367 "Color::Scheme"
+368 "Perl6::Tidy"
+369 "URI::Encode"
+370 "META6::To::Man"
+371 "Tie::StdHash"
+372 "CucumisSextus"
+373 "Linux::Proc::Statm"
+374 "Term::termios:auth<github:krunen>"
+375 "DateTime::Format::W3CDTF"
+376 "Lingua::Palindrome"
+377 "JS::Minify"
+378 "WebService::Slack::Webhook"
+379 "Unix::errno"
+380 "HTTP::Client"
+381 "Terminal::Getpass"
+382 "Sparrowdo::Prometheus"
+383 "Test::Color"
+384 "Algorithm::NaiveBayes"
+385 "p6doc"
+386 "App::Platform"
+387 "Cro::HTTP::Session::Redis"
+388 "Pod::To::Markdown"
+389 "Sparrowform"
+390 "Grammar::Tracer"
+391 "Locale-Codes-Country"
+392 "Digest::SHA"
+393 "Sparrowdo::Ruby::Bundler"
+394 "Test::Util::ServerPort"
+395 "NativeCall"
+396 "Bitcoin::RPC::Client"
+397 "PathTools"
+398 "HTTP::Status"
+399 "IO::Dir"
+400 "HTTP::Server::Ogre"
+401 "Terminal::Print"
+402 "Sparrowdo::Archive"
+403 "WWW::P6lert"
+404 "Getopt::Std"
+405 "Data::Dump"
+406 "Inline::Go"
+407 "Test::When"
+408 "LibUUID"
+409 "Base64::Native"
+410 "MinG"
+411 "Minecraft-Tools"
+412 "Readline"
+413 "Compress::Zlib"
+414 "Digest::MD5"
+415 "Cro::HTTP::Client"
+416 "Pod::To::HTMLBody"
+417 "Concurrent::Queue"
+418 "Text::Sift4"
+419 "UUID"
+420 "Hash::Merge:api<1>:version<1.0.0+>"
+421 "ANTLR4::Grammar"
+422 "Sparky"
+423 "Sparrowdo::Chef::Manager"
+424 "Sparrowdo::Rakudo"
+425 "Ops::SI"
+426 "Tie::StdArray"
+427 "FanFou"
+428 "CSV::Parser"
+429 "DNS::Zone"
+430 "P5uc"
+431 "Text::Wrap"
+432 "PowerNap"
+433 "P5hex"
+434 "Grammar::BNF"
+435 "Concurrent::Progress"
+436 "Uzu"
+437 "Crust"
+438 "System::Passwd"
+439 "Math::Constants"
+440 "Cro::OpenAPI::RoutesFromDefinition"
+441 "PDF::Content"
+442 "URL::Find"
+443 "Net::ZMQ"
+444 "PerlStore::FileStore"
+445 "App::Lang::French::VerbTrainer"
+446 "X::Protocol"
+447 "I18N::LangTags"
+448 "Math::Model"
+449 "HTML::Entity"
+450 "Native::Packing"
+451 "Game::Sudoku"
+452 "DBIish"
+453 "Digest::SHA256::Native"
+454 "Net::Jupyter"
+455 "App::snippet"
+456 "HTTP::MultiPartParser"
+457 "zef"
+*arcs
+34 309 1 
+34 254 1 
+34 357 1 
+270 281 1 
+146 395 1 
+146 281 1 
+146 237 1 
+112 107 1 
+112 246 1 
+112 106 1 
+112 402 1 
+350 422 1 
+350 76 1 
+202 106 1 
+312 86 1 
+284 7 1 
+284 173 1 
+284 240 1 
+284 106 1 
+284 247 1 
+284 221 1 
+284 380 1 
+264 114 1 
+217 106 1 
+151 106 1 
+151 247 1 
+80 106 1 
+80 281 1 
+180 22 1 
+293 94 1 
+148 236 1 
+148 332 1 
+148 133 1 
+148 281 1 
+148 237 2 
+161 106 1 
+161 174 1 
+199 236 1 
+199 183 1 
+199 26 1 
+199 333 1 
+199 358 1 
+199 442 1 
+199 449 1 
+73 297 1 
+73 106 1 
+73 281 1 
+91 106 1 
+91 281 1 
+91 9 1 
+103 395 1 
+103 407 1 
+103 106 1 
+103 281 1 
+107 246 1 
+111 246 1 
+324 106 1 
+149 346 1 
+53 298 1 
+3 197 1 
+60 72 1 
+60 69 1 
+60 237 1 
+20 366 1 
+424 246 1 
+424 106 1 
+319 435 1 
+319 302 1 
+248 109 1 
+248 72 1 
+248 106 1 
+136 328 1 
+136 361 1 
+31 106 1 
+13 207 2 
+370 7 1 
+370 106 1 
+370 235 1 
+260 246 1 
+455 79 1 
+455 74 1 
+455 412 1 
+455 397 1 
+455 106 1 
+455 283 1 
+1 351 1 
+1 281 1 
+239 109 1 
+239 22 1 
+239 106 1 
+239 206 1 
+296 280 1 
+296 106 1 
+296 281 1 
+296 375 1 
+158 281 1 
+55 125 1 
+453 104 1 
+128 281 2 
+165 246 1 
+138 395 1 
+138 281 1 
+65 150 1 
+65 409 1 
+65 40 1 
+65 115 1 
+65 230 1 
+65 237 1 
+65 449 1 
+25 114 1 
+113 331 1 
+113 247 1 
+68 104 1 
+310 236 1 
+310 333 1 
+310 210 1 
+310 247 1 
+67 98 1 
+67 281 1 
+216 281 1 
+416 332 1 
+416 106 1 
+416 281 1 
+372 210 1 
+372 106 1 
+201 452 1 
+201 361 1 
+201 281 1 
+201 357 1 
+445 281 1 
+423 246 1 
+435 352 1 
+411 364 1 
+411 210 1 
+411 281 1 
+411 237 1 
+58 358 1 
+122 57 1 
+122 197 1 
+122 287 1 
+122 292 1 
+122 271 1 
+250 422 1 
+170 64 1 
+170 210 1 
+170 281 1 
+185 249 1 
+185 281 1 
+83 106 1 
+215 94 1 
+215 398 1 
+215 257 1 
+215 237 1 
+215 135 1 
+406 22 1 
+406 281 1 
+367 106 1 
+422 452 1 
+422 405 1 
+422 72 1 
+422 338 1 
+422 365 1 
+422 246 1 
+422 78 1 
+241 102 1 
+241 106 1 
+241 254 1 
+241 45 1 
+399 106 1 
+399 254 1 
+74 15 1 
+74 213 1 
+74 106 1 
+302 173 1 
+302 332 1 
+302 247 1 
+29 281 1 
+225 106 1 
+253 106 1 
+253 237 1 
+297 106 1 
+297 281 1 
+430 308 1 
+178 433 1 
+368 145 1 
+368 106 1 
+320 106 1 
+342 212 1 
+342 106 1 
+342 254 1 
+342 357 1 
+436 215 1 
+436 72 1 
+436 210 1 
+436 15 1 
+436 233 1 
+436 12 1 
+436 22 1 
+436 95 1 
+56 395 1 
+56 407 1 
+56 106 1 
+56 281 1 
+299 422 1 
+295 22 1 
+295 135 1 
+63 452 1 
+63 191 1 
+63 241 1 
+63 210 1 
+63 15 1 
+63 106 1 
+63 254 1 
+63 62 1 
+63 357 1 
+63 237 1 
+365 106 1 
+154 106 1 
+61 325 1 
+61 37 1 
+61 7 1 
+61 97 1 
+61 202 1 
+61 261 1 
+61 15 1 
+61 388 1 
+61 22 2 
+61 106 2 
+61 311 1 
+61 326 1 
+61 237 1 
+209 104 1 
+338 400 1 
+338 187 1 
+338 190 1 
+338 456 1 
+338 332 1 
+338 144 1 
+338 287 1 
+338 72 1 
+338 210 1 
+338 184 1 
+338 15 1 
+338 12 1 
+338 227 1 
+338 22 1 
+338 398 1 
+338 108 1 
+338 334 1 
+338 369 1 
+338 237 1 
+200 210 1 
+200 249 1 
+200 390 1 
+358 102 1 
+358 407 1 
+358 3 1 
+358 281 1 
+81 281 1 
+327 281 1 
+313 395 1 
+313 281 1 
+266 395 1 
+266 302 1 
+266 281 1 
+137 220 1 
+432 42 1 
+62 106 1 
+62 254 1 
+403 191 1 
+403 407 1 
+403 254 1 
+268 314 1 
+303 69 1 
+303 157 1 
+303 85 1 
+357 392 1 
+357 106 1 
+357 108 1 
+357 254 1 
+232 106 1 
+232 254 1 
+294 246 1 
+454 173 1 
+454 156 1 
+454 419 1 
+454 287 1 
+454 204 1 
+454 453 1 
+454 247 1 
+454 106 2 
+286 129 1 
+286 450 1 
+286 362 1 
+286 115 1 
+286 441 1 
+426 114 1 
+396 405 1 
+396 191 1 
+396 409 1 
+396 302 1 
+396 281 1 
+396 221 1 
+396 237 1 
+421 247 2 
+421 106 2 
+421 281 2 
+139 72 1 
+139 247 1 
+139 285 1 
+123 22 3 
+123 281 3 
+214 155 1 
+214 281 1 
+273 3 1 
+273 85 1 
+79 267 1 
+79 106 1 
+205 346 1 
+205 22 1 
+349 395 1 
+349 407 1 
+349 22 1 
+349 106 1 
+349 281 1 
+191 236 1 
+191 407 1 
+191 333 1 
+191 106 1 
+191 281 1 
+191 237 1 
+429 106 1 
+429 281 1 
+11 452 2 
+11 39 1 
+145 281 1 
+439 106 1 
+439 281 1 
+363 281 1 
+152 457 1 
+152 249 1 
+378 8 1 
+378 237 1 
+179 337 1 
+179 281 1 
+75 395 1 
+75 281 1 
+109 420 1 
+109 106 1 
+291 106 1 
+291 281 1 
+48 106 1 
+48 281 1 
+48 9 1 
+267 182 2 
+267 210 2 
+267 163 2 
+448 177 1 
+448 166 1 
+448 167 1 
+176 21 1 
+176 89 1 
+176 181 1 
+93 106 1 
+93 235 1 
+93 126 1 
+35 187 1 
+35 236 1 
+35 252 1 
+35 318 1 
+35 177 1 
+35 160 1 
+35 118 1 
+35 166 1 
+35 351 1 
+35 133 1 
+35 210 1 
+35 227 1 
+35 271 1 
+35 22 1 
+35 104 1 
+35 388 1 
+35 246 1 
+35 247 1 
+35 326 1 
+35 369 1 
+35 283 1 
+35 385 1 
+35 95 1 
+35 413 1 
+35 71 1 
+35 147 1 
+35 452 1 
+35 175 1 
+35 346 1 
+35 173 1 
+35 208 1 
+35 419 1 
+35 332 1 
+35 52 1 
+35 428 1 
+35 437 1 
+35 287 1 
+35 144 1 
+35 302 1 
+35 197 1 
+35 72 1 
+35 234 1 
+35 164 1 
+35 15 1 
+35 90 1 
+35 338 1 
+35 317 1 
+35 434 1 
+35 209 1 
+35 414 1 
+35 398 1 
+35 10 1 
+35 70 1 
+35 330 1 
+35 194 1 
+35 117 1 
+412 281 1 
+412 174 1 
+4 104 1 
+4 281 1 
+143 106 1 
+143 281 1 
+49 266 1 
+49 281 1 
+376 106 1 
+376 281 1 
+376 9 1 
+255 262 1 
+116 395 1 
+116 104 1 
+355 277 1 
+355 437 1 
+355 259 1 
+355 12 1 
+427 415 1 
+427 187 1 
+427 173 1 
+427 332 1 
+427 287 1 
+427 392 1 
+427 369 1 
+443 106 1 
+269 301 1 
+269 338 1 
+269 281 1 
+269 431 1 
+269 237 1 
+276 160 1 
+276 106 1 
+282 106 1 
+124 405 1 
+124 191 1 
+124 409 1 
+124 302 1 
+124 281 1 
+124 221 1 
+124 237 1 
+94 22 1 
+238 106 1 
+347 104 1 
+381 374 1 
+224 236 1 
+224 297 1 
+224 281 1 
+224 369 1 
+47 169 1 
+32 106 1 
+32 254 1 
+440 72 1 
+440 60 1 
+440 303 1 
+440 237 1 
+440 262 1 
+89 42 1 
+89 247 1 
+89 322 1 
+126 106 1 
+17 15 1 
+402 246 1 
+354 236 1 
+354 333 1 
+354 106 1 
+354 247 1 
+354 281 1 
+354 369 1 
+387 106 1 
+387 313 1 
+387 262 1 
+14 245 1 
+222 395 1 
+222 407 1 
+222 56 1 
+222 106 1 
+222 408 1 
+222 281 1 
+404 154 1 
+404 106 1 
+121 106 1 
+30 395 1 
+30 407 1 
+30 281 1 
+30 237 1 
+226 22 1 
+226 106 1 
+386 188 1 
+386 210 1 
+386 72 1 
+386 12 1 
+386 247 1 
+386 431 1 
+82 346 1 
+82 24 1 
+82 15 1 
+82 22 1 
+82 388 1 
+82 289 1 
+274 407 1 
+274 254 1 
+274 403 1 
+274 237 2 
+87 281 1 
+41 109 1 
+41 358 1 
+265 109 1 
+265 338 1 
+265 106 1 
+265 358 1 
+263 218 1 
+263 6 1 
+263 43 1 
+360 236 1 
+360 22 1 
+360 394 1 
+360 162 1 
+64 407 1 
+64 254 1 
+64 357 1 
+64 237 2 
+377 233 1 
+393 246 1 
+343 246 1 
+343 247 1 
+156 204 1 
+156 106 1 
+156 247 1 
+258 281 1 
+344 187 1 
+344 236 1 
+344 337 1 
+344 332 1 
+344 287 1 
+344 333 1 
+344 369 1 
+344 281 2 
+344 237 1 
+382 107 1 
+382 246 1 
+382 402 1 
+389 405 1 
+389 210 1 
+389 246 1 
+389 247 1 
+389 401 1 
+307 281 1 
+336 346 1 
+336 104 1 
+115 104 1 
+278 106 1 
+278 281 1 
+229 236 1 
+229 333 1 
+229 237 1 
+142 106 1 
+23 135 1 
+120 106 2 
+383 210 1 
+383 106 1 
+256 234 1 
+198 22 1 
+212 106 1 
+212 254 1 
+212 45 1 
+212 357 1 
+272 191 1 
+272 419 1 
+272 19 1 
+272 297 1 
+272 407 1 
+272 78 1 
+434 281 1 
+243 106 1 
+243 281 1 
+189 452 1 
+189 281 1 
+371 114 1 
+192 106 2 
+192 247 2 
+192 281 2 
+192 369 2 
+192 380 2 
+2 106 1 
+2 219 1 
+316 104 1 
+84 106 1 
+84 281 1 
+27 106 1 
+27 281 1 
+408 395 1 
+408 407 1 
+408 106 1 
+408 281 1 
+132 218 1 
+251 148 1 
+251 51 1 
+251 233 1 
+251 281 1 
+153 249 1 
+153 106 1 
+153 281 1 
+305 246 1 
+305 106 1 
+211 106 1 
+211 281 1 
+335 281 1 
+228 79 1 
+228 104 1 
+228 106 1 
+228 237 1 
+101 338 1 
+101 106 1 
+101 141 1 
+353 444 1 
+353 358 1 
+36 438 1 
+244 281 1 
+221 106 1 
+359 109 1 
+359 106 1 
+359 226 1 
+223 219 1 
+110 106 1 
+110 235 1 
+237 281 1 
