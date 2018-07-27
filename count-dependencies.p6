@@ -40,7 +40,7 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     say "Distro, Deps";
     my @eco-distros = %dependencies.keys.sort( { %dependencies{$^þ} <=>  %dependencies{$^ð} } );
     for @eco-distros -> $distro {
-        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}>= 1 and %fails{$distro};
+        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}>= 1 and %fails{$distro} and $eco{$distro};
     }
     
 }
