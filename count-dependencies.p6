@@ -3,8 +3,17 @@
 use v6;
 
 use JSON::Fast;
+use DBIish;
 
 sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
+    my $dbh = DBIish.connect: 'SQLite', :database("toast.sqlite.db"), :RaiseError;
+    my $sth = $dbh.prepare('SELECT module,status FROM toast');
+    $sth.execute();
+    my @rows = $sth.allrows();
+    my %fails;
+    for @rows -> $row {
+        %fails{$row[0]} = True if $row[1] ne 'Succ';
+    }
     my %dependencies;
     chdir($dir);
     my $eco = ().SetHash;
@@ -31,7 +40,7 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     say "Distro, Deps";
     my @eco-distros = %dependencies.keys.sort( { %dependencies{$^þ} <=>  %dependencies{$^ð} } );
     for @eco-distros -> $distro {
-        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}> 1 and $eco{$distro};
+        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}>= 1 and %fails{$distro};
     }
     
 }

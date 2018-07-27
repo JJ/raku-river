@@ -3,8 +3,10 @@
 use v6;
 
 use JSON::Fast;
+use DBIIsh;
 
 sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
+ 
     my $names = ().SetHash;
     my $eco = ().SetHash;
     my %links;
