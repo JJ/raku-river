@@ -7,7 +7,7 @@ use DBIish;
 
 sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     my $dbh = DBIish.connect: 'SQLite', :database("toast.sqlite.db"), :RaiseError;
-    my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status != "Succ" ');
+    my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and ( status == "Fail" or status == "Kill" ) ');
     $sth.execute();
     my @rows = $sth.allrows();
     my %fails;
@@ -16,7 +16,6 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     }
     my %dependencies;
     chdir($dir);
-    my $eco = ().SetHash;
     my $ls-files = qx{git ls-files *.json};
     my @files = $ls-files.split(/\n/).grep: /META6/;
     for @files -> $file {
@@ -29,7 +28,6 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
 	  }
         }
         my $this-distro = $data<name>;
-        $eco   ∪= $this-distro;
         for <build-depends depends test-depends> -> $key {
             for $data{$key}.values -> $distro {
                 %dependencies{$distro}++;
@@ -40,7 +38,7 @@ sub MAIN( $dir = "../../forks/perl6/perl6-all-modules/" ) {
     say "Distro, Deps";
     my @eco-distros = %dependencies.keys.sort( { %dependencies{$^þ} <=>  %dependencies{$^ð} } );
     for @eco-distros -> $distro {
-        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}>= 1 and %fails{$distro} and $eco{$distro};
+        say "$distro, %dependencies{$distro}" if  %dependencies{$distro}>= 1 and %fails{$distro};
     }
     
 }
