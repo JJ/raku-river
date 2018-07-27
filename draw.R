@@ -7,7 +7,3 @@ sn <- sankeyNetwork(Links = distros$links, Nodes = distros$nodes, Source = "sour
                     Target = "target", Value = "value", NodeID = "name",
                     units = "commits", fontSize = 20, nodeWidth=30)
 sn %>% saveNetwork( file= 'sankey.html' )
-
-tree <- forceNetwork(Links = distros$links, Nodes = distros$nodes, Source = "source",
-                     Target = "target", Value = "value", NodeID = "name", Group="1",
-                      fontSize = 20)
