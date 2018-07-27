@@ -8,7 +8,7 @@ use DBIish;
 
 
 my $dbh = DBIish.connect: 'SQLite', :database("toast.sqlite.db"), :RaiseError;
-my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and ( status == "Fail" or status == "Kill" ) ');
+my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status == "Fail" ');
 $sth.execute();
 my @rows = $sth.allrows();
 my %fails;
