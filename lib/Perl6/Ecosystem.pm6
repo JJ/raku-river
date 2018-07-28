@@ -11,6 +11,8 @@ has @!sources =
 ;
 
 has %.modules;
+has %.depended;
+has %.depends-on;
 
 method TWEAK {
     for @!sources -> $source {
@@ -20,7 +22,10 @@ method TWEAK {
         for @$json {
             my $name = .<name>;
             for <depends test-depends build-depends> -> $dep-type {
+                %.depended{$_}++ for @(.{$dep-type} // ());
+                %.depends-on{$name}{$_} = True for @(.{$dep-type} // ());
                 %.modules{$name}{$dep-type} ∪= ~$_ for @(.{$dep-type} // ());
+                %.modules{$name}<all-deps>  ∪= ~$_ for @(.{$dep-type} // ());
             }
             
             with .<source-url> {
@@ -42,6 +47,8 @@ Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
     my $eco = Perl6::Ecosystem.new;
 
     say $eco.modules;
+    say $eco.depended;
+    say $eco.depends-on;
 
 =head1 DESCRIPTION
 
@@ -55,6 +62,14 @@ Creates the object, downloading and filling it with information. Error output go
 =head2 method modules
 
 Returns a C<hash> with module names, dependencies and URLs.
+
+=head2 method depended
+
+Returns a C<hash> with module names and the number of other modules it depends on.
+
+=head2 method depends-on
+
+Returns a C<hash> with module names and its dependencies.
 
 =head1 SEE ALSO
 
