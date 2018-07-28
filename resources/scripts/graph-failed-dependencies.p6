@@ -20,8 +20,20 @@ my $eco = Perl6::Ecosystem.new;
 
 say "Distro, Deps";
 my @eco-distros = $eco.depended.keys.sort( { $eco.depended{$^þ} <=>  $eco.depended{$^ð} } );
-for @eco-distros -> $distro {
-    if  $eco.depended{$distro}>= 1 and %fails{$distro} {
-say "$distro, ", $eco.depended{$distro}
+my @nodes = @eco-distros.grep: { $eco.depended{$^þ}>= 1 and %fails{$^þ} };
+my %inverse-mapping;
+say "*Vertices ", @nodes.elems;
+for @nodes.kv -> $idx, $val {
+    my $n = $idx + 1;
+    %inverse-mapping{$val} = $n;
+    say "$n \"$val\" " ;
 }
+
+say "*arcs";
+for @nodes -> $distro {
+    for $eco.depends-on{$distro}.keys -> $deps {
+        if %fails{$deps} {
+          say "%inverse-mapping{$distro} %inverse-mapping{$deps} 1";
+        }
+    }
 }
