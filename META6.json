@@ -21,7 +21,7 @@
   "source-url" : "https://github.com/JJ/p6-river",
   "tags" : [
     "API",
-    "modules",
+    "modules"
   ],
   "test-depends" : [
     "Test",

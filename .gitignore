@@ -38,3 +38,4 @@ inc/
 *-shm
 *-wal
 .precomp
+*.pdf
