@@ -39,3 +39,5 @@ inc/
 *-wal
 .precomp
 *.pdf
+
+Perl6-Ecosystem-*/
