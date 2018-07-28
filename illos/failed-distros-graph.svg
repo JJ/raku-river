@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1091.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-544.000000 -542.000000 1091.000000 1093.000000" height="1093.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.0"
+              d="M -282.502808,-22.014317 L -50.194675,-3.648402"
+              class="id_3 id_1" stroke-opacity="1.0" stroke="#7bbdb3"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -499.537964,-200.705627 L -373.039551,-386.425049"
+              class="id_7 id_2" stroke-opacity="1.0" stroke="#c09263"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 266.274506,-103.568054 L 47.190193,-18.034252"
+              class="id_11 id_1" stroke-opacity="1.0" stroke="#608b6a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -524.396545,88.577736 L -334.294525,-4.152067"
+              class="id_12 id_3" stroke-opacity="1.0" stroke="#dac3ac"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 180.355576,-513.446350 L -45.394188,-526.946228"
+              class="id_14 id_40" stroke-opacity="1.0" stroke="#cdaa87"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 84.497566,-271.494019 L 15.114728,-47.899624"
+              class="id_19 id_1" stroke-opacity="1.0" stroke="#608b6a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -195.098877,498.037079 L -387.486969,369.634674"
+              class="id_25 id_10" stroke-opacity="1.0" stroke="#c09263"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 246.851624,143.420212 L 43.832275,25.668474"
+              class="id_27 id_1" stroke-opacity="1.0" stroke="#608b6a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 535.550049,-76.889793 L 515.327271,145.850891"
+              class="id_28 id_43" stroke-opacity="1.0" stroke="#c09263"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -171.511444,-235.425690 L -273.823059,-60.261070"
+              class="id_29 id_3" stroke-opacity="1.0" stroke="#dac3ac"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 101.037788,535.757202 L 303.610260,434.884308"
+              class="id_31 id_38" stroke-opacity="1.0" stroke="#c09263"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 41.535034,281.821442 L 7.494171,50.294495" class="id_34 id_1"
+              stroke-opacity="1.0" stroke="#608b6a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M -194.749649,208.224304 L -34.390640,37.173393"
+              class="id_36 id_1" stroke-opacity="1.0" stroke="#608b6a"/>
+        <path fill="none" stroke-width="1.0"
+              d="M 405.296997,-352.038605 L 225.509781,-487.579651"
+              class="id_41 id_14" stroke-opacity="1.0" stroke="#cdaa87"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#7bbdb3" fill-opacity="1.0" class="id_3 id_1"
+                  points="-20.287987,-1.284027 -51.376862,11.304941 -49.012489,-18.601746"
+                  stroke="none"/>
+        <polyline fill="#c09263" fill-opacity="1.0" class="id_7 id_2"
+                  points="-356.151154,-411.219849 -360.642151,-377.980835 -385.436951,-394.869263"
+                  stroke="none"/>
+        <polyline fill="#608b6a" fill-opacity="1.0" class="id_11 id_1"
+                  points="19.244484,-7.123827 41.734982,-32.007107 52.645405,-4.061397"
+                  stroke="none"/>
+        <polyline fill="#dac3ac" fill-opacity="1.0" class="id_12 id_3"
+                  points="-307.331329,-17.304443 -327.718323,9.329539 -340.870728,-17.633675"
+                  stroke="none"/>
+        <polyline fill="#cdaa87" fill-opacity="1.0" class="id_14 id_40"
+                  points="-75.340691,-528.737000 -44.498787,-541.919495 -46.289589,-511.972961"
+                  stroke="none"/>
+        <polyline fill="#608b6a" fill-opacity="1.0" class="id_19 id_1"
+                  points="6.223750,-19.247396 0.788612,-52.345112 29.440844,-43.454136"
+                  stroke="none"/>
+        <polyline fill="#c09263" fill-opacity="1.0" class="id_25 id_10"
+                  points="-412.439880,352.980743 -379.160004,357.158234 -395.813934,382.111115"
+                  stroke="none"/>
+        <polyline fill="#608b6a" fill-opacity="1.0" class="id_27 id_1"
+                  points="17.881369,10.616883 51.358070,12.693020 36.306480,38.643929"
+                  stroke="none"/>
+        <polyline fill="#c09263" fill-opacity="1.0" class="id_28 id_43"
+                  points="512.614685,175.727997 500.388702,144.494614 530.265808,147.207169"
+                  stroke="none"/>
+        <polyline fill="#dac3ac" fill-opacity="1.0" class="id_29 id_3"
+                  points="-288.953766,-34.356220 -286.775482,-67.826431 -260.870636,-52.695709"
+                  stroke="none"/>
+        <polyline fill="#c09263" fill-opacity="1.0" class="id_31 id_38"
+                  points="330.464966,421.511749 310.296539,448.311646 296.923981,421.456970"
+                  stroke="none"/>
+        <polyline fill="#608b6a" fill-opacity="1.0" class="id_34 id_1"
+                  points="3.130256,20.613583 22.334625,48.112537 -7.346283,52.476452"
+                  stroke="none"/>
+        <polyline fill="#608b6a" fill-opacity="1.0" class="id_36 id_1"
+                  points="-13.872489,15.287196 -23.447542,47.432468 -45.333740,26.914318"
+                  stroke="none"/>
+        <polyline fill="#cdaa87" fill-opacity="1.0" class="id_41 id_14"
+                  points="201.554657,-505.639343 234.539627,-499.557220 216.479935,-475.602081"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#018571" r="20.0" cx="0.14824799"
+                class="id_1" cy="0.33162922" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="11.298765" cx="-349.50906"
+                class="id_2" cy="-420.97144" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#f5f5f5" r="12.597531" cx="-295.5596"
+                class="id_3" cy="-23.046566" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="-505.4489"
+                class="id_7" cy="-192.02745" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="11.298765" cx="-422.25366"
+                class="id_10" cy="346.4309" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="276.0555"
+                class="id_11" cy="-107.3867" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="-533.8337"
+                class="id_12" cy="93.18107" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#dac3ac" r="11.298765" cx="192.1333"
+                class="id_14" cy="-512.74207" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="87.609406"
+                class="id_19" cy="-281.5223" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="-186.36536"
+                class="id_25" cy="503.86594" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="255.93445"
+                class="id_27" cy="148.68826" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="536.49945"
+                class="id_28" cy="-87.34679" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="-166.2157"
+                class="id_29" cy="-244.49239" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="91.63864"
+                class="id_31" cy="540.4376" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="43.062405"
+                class="id_34" cy="292.20975" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="-201.931"
+                class="id_36" cy="215.88448" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="11.298765" cx="341.0267"
+                class="id_38" cy="416.25244" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="12.402469" cx="-88.22015"
+                class="id_40" cy="-529.5072" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="10.0" cx="413.68127"
+                class="id_41" cy="-345.7177" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#c09263" r="11.298765" cx="511.54785"
+                class="id_43" cy="187.47844" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="48" x="0.14824799" y="11.577723" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_1">
+            HTTP::UserAgent
+        </text>
+        <text font-size="27" x="-349.50906" y="-415.74634" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_2">
+            Bailador
+        </text>
+        <text font-size="30" x="-295.5596" y="-17.577816" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_3">
+            WWW
+        </text>
+        <text font-size="24" x="-505.4489" y="-186.22081" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_7">
+            Sparky
+        </text>
+        <text font-size="27" x="-422.25366" y="352.96338" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_10">
+            Audio::Taglib::Simple
+        </text>
+        <text font-size="24" x="276.0555" y="-101.73241" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_11">
+            JSON::RPC
+        </text>
+        <text font-size="24" x="-533.8337" y="97.8256" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_12">
+            Pastebin::Gist
+        </text>
+        <text font-size="27" x="192.1333" y="-507.7235" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_14">
+            TXN::Parser
+        </text>
+        <text font-size="24" x="87.609406" y="-275.71567" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_19">
+            TelegramBot
+        </text>
+        <text font-size="24" x="-186.36536" y="508.51047" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_25">
+            Audio::Encode::LameMP3
+        </text>
+        <text font-size="24" x="255.93445" y="153.3328" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_27">
+            WebService::FootballData
+        </text>
+        <text font-size="24" x="536.49945" y="-82.97179" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_28">
+            YAML
+        </text>
+        <text font-size="24" x="-166.2157" y="-239.84785" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_29">
+            WWW::P6lert
+        </text>
+        <text font-size="24" x="91.63864" y="545.08215" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_31">
+            BioInfo
+        </text>
+        <text font-size="24" x="43.062405" y="296.85428" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_34">
+            Audio::Icecast
+        </text>
+        <text font-size="24" x="-201.931" y="220.529" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_36">
+            Pastebin::Shadowcat
+        </text>
+        <text font-size="27" x="341.0267" y="421.3589" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_38">
+            Stats
+        </text>
+        <text font-size="30" x="-88.22015" y="-522.2489" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_40">
+            Digest::xxHash
+        </text>
+        <text font-size="24" x="413.68127" y="-341.07318" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_41">
+            TXN::Remarshal
+        </text>
+        <text font-size="27" x="511.54785" y="192.497" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Dialog" class="id_43">
+            TestML
+        </text>
+    </g>
+</svg>
