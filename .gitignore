@@ -37,3 +37,4 @@ inc/
 *~
 *-shm
 *-wal
+.precomp
