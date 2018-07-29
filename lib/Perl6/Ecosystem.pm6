@@ -59,10 +59,9 @@ method TWEAK {
                 push @generation-dep-list: @list;
             }
         }
-        @temp-dep-list.push: flat @generation-dep-list;
-        say "Dependencies $dependencies";
-        say "Elemens ", @temp-dep-list.elems;
-#        say @temp-dep-list;
+        for @generation-dep-list -> $seqs {
+            @temp-dep-list.push: $seqs.Array;
+        }
         $length++;
     }
 
