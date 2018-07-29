@@ -356,8 +356,6 @@ Grammar::Tracer, 4,
 Distribution::Common, 4, 
 P5math, 4, 
 System::Passwd, 4, 
-test	recommends	Test::META
-requires	Test, 4, 
 Object::Permission, 3, 
 Concurrent::Progress, 3, 
 Lingua::Conjunction, 3, 
