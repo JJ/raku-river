@@ -13,6 +13,7 @@ has @!sources =
 has %.modules;
 has %.depended;
 has %.depends-on;
+has @.dependency-lists; 
 
 method TWEAK {
     for @!sources -> $source {
@@ -27,7 +28,10 @@ method TWEAK {
                 %.modules{$name}{$dep-type} ∪= ~$_ for @(.{$dep-type} // ());
                 %.modules{$name}<all-deps>  ∪= ~$_ for @(.{$dep-type} // ());
             }
-            
+
+            for %.modules{$name}<all-deps> -> $dep {
+                push @.dependency-lists, [$name, $dep];
+            }
             with .<source-url> {
                 %.modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
             }
