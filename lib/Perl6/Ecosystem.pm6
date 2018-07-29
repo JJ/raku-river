@@ -14,6 +14,7 @@ has %.modules;
 has %.depended;
 has %.depends-on;
 has @.dependency-lists; 
+has %.river-scores;
 
 method TWEAK {
     for @!sources -> $source {
@@ -36,7 +37,6 @@ method TWEAK {
                 %.modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
             }
 
-            
         }
     }
 
@@ -64,6 +64,12 @@ method TWEAK {
         say "Elemens ", @temp-dep-list.elems;
 #        say @temp-dep-list;
         $length++;
+    }
+
+    for @temp-dep-list -> @list {
+        for @list.kv -> $idx, $value {
+            %.river-scores{$value} += $idx;
+        }
     }
     @.dependency-lists = @temp-dep-list;
 }
