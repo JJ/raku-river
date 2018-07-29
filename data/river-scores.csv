@@ -419,9 +419,6 @@ P5push, 2,
 NativeHelpers::CBuffer, 2, 
 P5print, 2, 
 P5length, 2, 
-by-distro.name		python2-config
-debian	python2.7-config
-macosx	python2.7-config, 2, 
 P5-X, 2, 
 P5study, 2, 
 P5times, 2, 
