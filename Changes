@@ -1,3 +1,7 @@
+2018-07-29  Juan J. merelo  <jmerelo@penny>
+
+	* lib/Perl6/Ecosystem.pm6: This new version includes the computation of the "river" score. 
+
 Revision history for Perl6-Ecosystem
 
 {{$NEXT}}

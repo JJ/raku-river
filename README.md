@@ -41,6 +41,15 @@ method depends-on
 
 Returns a `hash` with module names and its dependencies.
 
+method river-scores --> Hash
+----------------------------
+
+Computes the "river-score" by looking at all dependency chains and giving a score according to the position. That is, if there's this dependenci chain
+
+    Foo → Bar → Baz
+
+Foo will have a 0 score for appearing in the first position, up to Baz which will have score equal to 2. The total score of every module is computed by adding all scores.
+
 SEE ALSO
 ========
 
