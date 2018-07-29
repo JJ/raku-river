@@ -29,14 +29,43 @@ method TWEAK {
                 %.modules{$name}<all-deps>  ∪= ~$_ for @(.{$dep-type} // ());
             }
 
-            for %.modules{$name}<all-deps> -> $dep {
+            for %.modules{$name}<all-deps>.keys -> $dep {
                 push @.dependency-lists, [$name, $dep];
             }
             with .<source-url> {
                 %.modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
             }
+
+            
         }
     }
+
+    # Populate dependency list
+    my $dependencies = %.depended.keys.elems; #Initializes with number of depended-upon modules
+    my @temp-dep-list = @.dependency-lists;
+    my $length = 2;
+    while $dependencies > 0 {
+        $dependencies = 0;
+        my @generation-dep-list;
+        for @temp-dep-list.grep: *.elems == $length -> @list {
+            my $depended = @list[* - 1]; #last
+            if $.depends-on{$depended}.keys.elems > 0 {
+                my @this-list = @list;
+                for $.depends-on{$depended}.keys -> $deps {
+                    $dependencies++;
+                    push @generation-dep-list: flat @list, $deps;
+                }
+            } else {
+                push @generation-dep-list: @list;
+            }
+        }
+        @temp-dep-list.push: flat @generation-dep-list;
+        say "Dependencies $dependencies";
+        say "Elemens ", @temp-dep-list.elems;
+#        say @temp-dep-list;
+        $length++;
+    }
+    @.dependency-lists = @temp-dep-list;
 }
 
 =begin pod
