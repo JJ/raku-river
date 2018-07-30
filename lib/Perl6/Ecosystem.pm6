@@ -18,7 +18,7 @@ has %.river-scores;
 
 method TWEAK {
     for @!sources -> $source {
-        my $err = open :w, '/tmp/perl6-eco-err.txt';
+        my $err = open :w, $*TMPDIR.add: 'perl6-eco-err.txt';
         my $json = from-json run(<curl -->, $source, :out, :err($err)).out.slurp-rest;
 
         for @$json {
