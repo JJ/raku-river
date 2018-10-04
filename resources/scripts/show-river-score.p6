@@ -7,6 +7,7 @@ use DBIish;
 use Perl6::Ecosystem;
 
 
+# Maybe obtain data first from https://temp.perl6.party/toast.sqlite.db
 my $dbh = DBIish.connect: 'SQLite', :database("data/toast.sqlite.db"), :RaiseError;
 my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status == "Fail" ');
 $sth.execute();

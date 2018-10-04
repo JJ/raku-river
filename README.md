@@ -18,6 +18,9 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
+Module and scripts for obtaining information on the dependency graph
+among Perl 6 modules. 
+
 METHODS
 =======
 
