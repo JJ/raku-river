@@ -23,11 +23,15 @@ method TWEAK {
 
         for @$json {
             my $name = .<name>;
+            next if $name ~~ /Foo\:\:Dependencies/;
             for <depends test-depends build-depends> -> $dep-type {
-                %.depended{$_}++ for @(.{$dep-type} // ());
-                %.depends-on{$name}{$_} = True for @(.{$dep-type} // ());
-                %.modules{$name}{$dep-type} ∪= ~$_ for @(.{$dep-type} // ());
-                %.modules{$name}<all-deps>  ∪= ~$_ for @(.{$dep-type} // ());
+                my @these-deps = @(.{$dep-type} // ());
+                for @these-deps {
+                    %.depended{$_}++;
+                    %.depends-on{$name}{$_} = True;
+                    %.modules{$name}{$dep-type} ∪= ~$_;
+                    %.modules{$name}<all-deps>  ∪= ~$_;
+                }
             }
 
             for %.modules{$name}<all-deps>.keys -> $dep {
