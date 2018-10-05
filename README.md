@@ -8,7 +8,7 @@ Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
 SYNOPSIS
 ========
 
-    use Perl::Ecosystem;
+    use Perl6::Ecosystem;
     my $eco = Perl6::Ecosystem.new;
 
     say $eco.modules;
