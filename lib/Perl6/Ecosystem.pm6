@@ -25,8 +25,16 @@ method TWEAK {
             my $name = .<name>;
             next if $name ~~ /Foo\:\:Dependencies/;
             for <depends test-depends build-depends> -> $dep-type {
-                my @these-deps = @(.{$dep-type} // ());
+                my @these-deps = ();
+                if $dep-type eq "depends" and .{$dep-type}.WHAT.^name eq "Hash" {
+                    for <test runtime build> -> $subdep-type {
+                        @these-deps.append(values(.{$dep-type}{$subdep-type})[*;*]);
+                    }
+                } else {
+                    @these-deps = @(.{$dep-type} // ());
+                }
                 for @these-deps {
+                    if $_.WHAT.^name ne "Str" { next };
                     %.depended{$_}++;
                     %.depends-on{$name}{$_} = True;
                     %.modules{$name}{$dep-type} ∪= ~$_;
