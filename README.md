@@ -21,8 +21,8 @@ DESCRIPTION
 Module and scripts for obtaining information on the dependency graph
 among Perl 6 modules.
 
-This module works on the Toast database. You will need to download it
-first and place it on the `data/` directory; it comes with a (possibly
+This module works on the Toast database. You will need to [download it
+first](https://temp.perl6.party/toast.sqlite.db) and place it on the `data/` directory; it comes with a (possibly
 outdated) version of it.
 
 
