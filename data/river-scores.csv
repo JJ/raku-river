@@ -372,7 +372,7 @@ Cairo, 4, True
 Audio::PortAudio, 4, 
 Dist::Helper:ver<0.21.0+>, 4, 
 Desktop::Notify, 4, True
-test	recommends	Test::META
+test	recommends	Test::META, 4,
 requires	Test, 4, 
 CSS::Declarations, 4, 
 File::Zip, 4, 
