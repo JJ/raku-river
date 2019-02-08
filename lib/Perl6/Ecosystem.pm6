@@ -24,6 +24,7 @@ method TWEAK {
         for @$json {
             my $name = .<name>;
             next if $name ~~ /Foo\:\:Dependencies/;
+            next if $name ~~ /AI\:\:Agent/;
             for <depends test-depends build-depends> -> $dep-type {
                 my @these-deps = ();
                 if $dep-type eq "depends" and .{$dep-type}.WHAT.^name eq "Hash" {
@@ -71,6 +72,7 @@ method TWEAK {
                 push @generation-dep-list: @list;
             }
         }
+        say @generation-dep-list;
         for @generation-dep-list -> $seqs {
             @temp-dep-list.push: $seqs.Array;
         }
