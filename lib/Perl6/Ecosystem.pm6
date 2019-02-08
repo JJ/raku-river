@@ -72,7 +72,6 @@ method TWEAK {
                 push @generation-dep-list: @list;
             }
         }
-        say @generation-dep-list;
         for @generation-dep-list -> $seqs {
             @temp-dep-list.push: $seqs.Array;
         }
