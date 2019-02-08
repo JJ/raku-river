@@ -6,8 +6,8 @@ unit class Perl6::Ecosystem:ver<0.0.2>;
 
 
 has @!sources =
-‘https://raw.githubusercontent.com/ugexe/Perl6-ecosystems/master/cpan.json’,
-‘http://ecosystem-api.p6c.org/projects.json’,
+‘https://raw.githubusercontent.com/ugexe/Perl6-ecosystems/master/cpan1.json’,
+‘https://ecosystem-api.p6c.org/projects1.json’,
 ;
 
 has %.modules;

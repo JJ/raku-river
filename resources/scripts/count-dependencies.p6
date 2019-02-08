@@ -3,17 +3,15 @@
 use v6;
 
 use JSON::Fast;
-use DBIish;
+
+my $data-file = "data.json";
+
+my %data = from-json $data-file.IO.slurp or fail "Problems reading file";
 
 
-
-my $dbh = DBIish.connect: 'SQLite', :database("toast.sqlite.db"), :RaiseError;
-my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status == "Fail" ');
-$sth.execute();
-my @rows = $sth.allrows();
 my %fails;
-for @rows -> $row {
-    %fails{$row} = True;
+for %data.keys -> $module {
+    %fails{$module} = %data{$module}<status> if %data{$module}<status> ne "OK";
 }
 my %dependencies;
 

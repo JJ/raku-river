@@ -3,19 +3,18 @@
 use v6;
 
 use JSON::Fast;
-use DBIish;
 use Perl6::Ecosystem;
 
+my $data-file = "data.json";
 
-# Maybe obtain data first from https://temp.perl6.party/toast.sqlite.db
-my $dbh = DBIish.connect: 'SQLite', :database("data/toast.sqlite.db"), :RaiseError;
-my $sth = $dbh.prepare('SELECT module FROM toast where rakudo == "2018.06" and status == "Fail" ');
-$sth.execute();
-my @rows = $sth.allrows();
+my %data = from-json $data-file.IO.slurp or fail "Problems reading file";
+
+
 my %fails;
-for @rows -> $row {
-    %fails{$row} = True;
+for %data.keys -> $module {
+    %fails{$module} = %data{$module}<status> if %data{$module}<status> ne "OK";
 }
+
 
 my $eco = Perl6::Ecosystem.new;
 
