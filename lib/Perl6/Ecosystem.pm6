@@ -2,7 +2,7 @@ use v6.c;
 
 use JSON::Fast;
 
-unit class Perl6::Ecosystem:ver<0.0.2>;
+unit class Perl6::Ecosystem:ver<0.0.3>;
 
 
 has @!sources =
@@ -103,6 +103,7 @@ Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
 
 =head1 DESCRIPTION
 
+A tool to analyze the Perl 6 ecosystem by downloading all modules and finding out how they depend on each other.
 
 =head1 METHODS
 
@@ -136,7 +137,11 @@ module is computed by adding all scores.
 
 =head1 SEE ALSO
 
-L<Perl6 module ecosystem|https://modules.perl6.org>. 
+L<Perl6 module ecosystem|https://modules.perl6.org>.
+
+=head1 KNOWN BUGS
+
+It chokes on circular references. Right now they are blacklisted.
 
 =head1 AUTHOR
 

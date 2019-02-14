@@ -8,7 +8,7 @@ Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
 SYNOPSIS
 ========
 
-    use Perl6::Ecosystem;
+    use Perl::Ecosystem;
     my $eco = Perl6::Ecosystem.new;
 
     say $eco.modules;
@@ -18,14 +18,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Module and scripts for obtaining information on the dependency graph
-among Perl 6 modules.
-
-This module works on the Toast database. You will need to [download it
-first](https://temp.perl6.party/toast.sqlite.db) and place it on the `data/` directory; it comes with a (possibly
-outdated) version of it.
-
-
+A tool to analyze the Perl 6 ecosystem by downloading all modules and finding out how they depend on each other.
 
 METHODS
 =======
@@ -59,26 +52,15 @@ Computes the "river-score" by looking at all dependency chains and giving a scor
 
 Foo will have a 0 score for appearing in the first position, up to Baz which will have score equal to 2. The total score of every module is computed by adding all scores.
 
-INSTALLATION AND TESTS
-======================
-
-To install this module, please use zef from https://github.com/ugexe/zef and type
-
-```zef install Perl6::Ecosystem```
-
-or from a checkout of this source tree,
-
-```zef install .```
-
-You can run the test suite locally like this:
-
-```prove -e 'perl6 -Ilib' t/```
-
-
 SEE ALSO
 ========
 
 [Perl6 module ecosystem](https://modules.perl6.org).
+
+KNOWN BUGS
+==========
+
+It chokes on circular references. Right now they are blacklisted.
 
 AUTHOR
 ======
