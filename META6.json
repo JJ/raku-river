@@ -15,12 +15,12 @@
   "provides" : {
     "Perl6::Ecosystem" : "lib/Perl6/Ecosystem.pm6"
   },
-    "resources" : [
-        "resources/scripts/show-river-score.p6",
-        "resources/scripts/count-dependencies.p6",
-        "resources/scripts/dep-to-dot.p6",
-        "resources/scripts/draw.R",
-        "resources/scripts/find-dependencies.p6"
+  "resources" : [
+    "resources/scripts/show-river-score.p6",
+    "resources/scripts/count-dependencies.p6",
+    "resources/scripts/dep-to-dot.p6",
+    "resources/scripts/draw.R",
+    "resources/scripts/find-dependencies.p6"
   ],
   "source-url" : "https://github.com/JJ/p6-river",
   "tags" : [
