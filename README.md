@@ -46,7 +46,7 @@ Returns a `hash` with module names and its dependencies.
 method river-scores --> Hash
 ----------------------------
 
-Computes the "river-score" by looking at all dependency chains and giving a score according to the position. That is, if there's this dependenci chain
+Computes the "river-score" by looking at all dependency chains and giving a score according to the position. That is, if there's this dependency chain
 
     Foo → Bar → Baz
 
