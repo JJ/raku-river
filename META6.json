@@ -8,7 +8,7 @@
   "depends" : [
     "JSON::Fast"
   ],
-  "description" : "Obtains information from Perl6 modules in the ecosystem",
+  "description" : "Obtains information from Raku modules in the ecosystem",
   "license" : "gpl-3.0",
   "name" : "Perl6::Ecosystem",
   "perl" : "6.*",
@@ -16,11 +16,11 @@
     "Perl6::Ecosystem" : "lib/Perl6/Ecosystem.pm6"
   },
   "resources" : [
-    "resources/scripts/show-river-score.p6",
-    "resources/scripts/count-dependencies.p6",
-    "resources/scripts/dep-to-dot.p6",
-    "resources/scripts/draw.R",
-    "resources/scripts/find-dependencies.p6"
+    "scripts/show-river-score.p6",
+    "scripts/count-dependencies.p6",
+    "scripts/dep-to-dot.p6",
+    "scripts/draw.R",
+    "scripts/find-dependencies.p6"
   ],
   "source-url" : "https://github.com/JJ/p6-river",
   "tags" : [
@@ -31,5 +31,5 @@
     "Test",
     "Test::META"
   ],
-  "version" : "0.0.3"
+  "version" : "0.0.4"
 }
