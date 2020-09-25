@@ -90,12 +90,12 @@ submethod TWEAK {
 
 =head1 NAME
 
-Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
+Raku::Ecosystem - Obtains information from Perl6 modules in the ecosystem
 
 =head1 SYNOPSIS
 
-    use Perl::Ecosystem;
-    my $eco = Perl6::Ecosystem.new;
+    use Raku::Ecosystem;
+    my $eco = Raku::Ecosystem.new;
 
     say $eco.modules;
     say $eco.depended;
@@ -103,7 +103,8 @@ Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
 
 =head1 DESCRIPTION
 
-A tool to analyze the Perl 6 ecosystem by downloading all modules and finding out how they depend on each other.
+A tool to analyze the Raku ecosystem by downloading all modules and finding out
+how they depend on each other.
 
 =head1 METHODS
 
@@ -137,7 +138,7 @@ module is computed by adding all scores.
 
 =head1 SEE ALSO
 
-L<Perl6 module ecosystem|https://modules.perl6.org>.
+L<Perl6 module ecosystem|https://modules.raku.org>.
 
 =head1 KNOWN BUGS
 
@@ -149,7 +150,7 @@ Alex Daniel, JJ Merelo <jjmerelo@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Alex Daniel, JJ Merelo
+Copyright 2018,2019,2020 Alex Daniel, JJ Merelo
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
