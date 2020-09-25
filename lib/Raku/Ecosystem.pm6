@@ -2,7 +2,7 @@ use v6.c;
 
 use JSON::Fast;
 
-unit class Perl6::Ecosystem:ver<0.0.3>;
+unit class Raku::Ecosystem:ver<0.0.3>;
 
 
 has @!sources =
@@ -16,7 +16,7 @@ has %.depends-on;
 has @.dependency-lists; 
 has %.river-scores;
 
-method TWEAK {
+submethod TWEAK {
     for @!sources -> $source {
         my $err = open :w, $*TMPDIR.add: 'perl6-eco-err.txt';
         my $json = from-json run(<curl -->, $source, :out, :err($err)).out.slurp-rest;

@@ -2,6 +2,6 @@
 
 use Test;
 
-use-ok "Perl6::Ecosystem";
+use-ok "Raku::Ecosystem";
 
 done-testing;

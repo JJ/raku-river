@@ -16,7 +16,7 @@ for %data.keys -> $module {
 }
 
 
-my $eco = Perl6::Ecosystem.new;
+my $eco = Raku::Ecosystem.new;
 
 say "Distro, Score, Fail";
 my @eco-distros = $eco.river-scores.keys.sort( { $eco.river-scores{$^þ} <=>  $eco.river-scores{$^ð} } );

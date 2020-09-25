@@ -16,7 +16,7 @@ for @rows -> $row {
     %fails{$row} = True;
 }
 
-my $eco = Perl6::Ecosystem.new;
+my $eco = Raku::Ecosystem.new;
 
 say "Distro, Deps";
 my @eco-distros = $eco.depended.keys.sort( { $eco.depended{$^þ} <=>  $eco.depended{$^ð} } );

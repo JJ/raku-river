@@ -4,7 +4,7 @@ use v6;
 
 use Perl6::Ecosystem;
 
-my $eco = Perl6::Ecosystem.new;
+my $eco = Raku::Ecosystem.new;
 
 say "Distro, Score";
 my @eco-distros = $eco.river-scores.keys.sort( { $eco.river-scores{$^þ} <=>  $eco.river-scores{$^ð} } );

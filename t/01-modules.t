@@ -2,9 +2,9 @@
 
 use Test;
 
-use Perl6::Ecosystem;
+use Raku::Ecosystem;
 
-my $eco = Perl6::Ecosystem.new;
+my $eco = Raku::Ecosystem.new;
 
 cmp-ok $eco.modules.keys.elems, ">", 1000, "Number of modules OK";
 cmp-ok $eco.dependency-lists.elems, ">", 0, "Number of depencencies OK";
