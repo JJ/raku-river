@@ -4,27 +4,23 @@ use JSON::Fast;
 
 unit class Raku::Ecosystem:ver<0.0.3>;
 
-
 has @!sources =
-‘https://raw.githubusercontent.com/ugexe/Perl6-ecosystems/master/cpan1.json’,
-‘https://ecosystem-api.p6c.org/projects1.json’,
-;
+        ‘https://raw.githubusercontent.com/ugexe/Perl6-ecosystems/master/cpan1.json’,
+        ‘https://ecosystem-api.p6c.org/projects1.json’;
 
 has %.modules;
 has %.depended;
 has %.depends-on;
-has @.dependency-lists; 
+has @.dependency-lists;
 has %.river-scores;
 
 submethod TWEAK {
     for @!sources -> $source {
         my $err = open :w, $*TMPDIR.add: 'perl6-eco-err.txt';
-        my $json = from-json run(<curl -->, $source, :out, :err($err)).out.slurp-rest;
+        my $json = from-json run(<curl -->, $source, :out, :$err).out.slurp-rest;
 
         for @$json {
             my $name = .<name>;
-            next if $name ~~ /Foo\:\:Dependencies/;
-            next if $name ~~ /AI\:\:Agent/;
             for <depends test-depends build-depends> -> $dep-type {
                 my @these-deps = ();
                 if $dep-type eq "depends" and .{$dep-type}.WHAT.^name eq "Hash" {
@@ -53,6 +49,9 @@ submethod TWEAK {
         }
     }
 
+    # Track infinite recursion for modules with incorrect deps
+    my %seen-deps;
+
     # Populate dependency list
     my $dependencies = %.depended.keys.elems; #Initializes with number of depended-upon modules
     my @temp-dep-list = @.dependency-lists;
@@ -65,8 +64,11 @@ submethod TWEAK {
             if $.depends-on{$depended}.keys.elems > 0 {
                 my @this-list = @list;
                 for $.depends-on{$depended}.keys -> $deps {
-                    $dependencies++;
-                    push @generation-dep-list: flat @list, $deps;
+                    without %seen-deps{$deps} {
+                        %seen-deps{$deps} = True;
+                        $dependencies++;
+                        push @generation-dep-list: flat @list, $deps;
+                    }
                 }
             } else {
                 push @generation-dep-list: @list;
