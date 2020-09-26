@@ -1,36 +1,37 @@
 {
-  "auth" : "github:JJ",
-  "authors" : [
-      "Alex Daniel",
-      "JJ Merelo",
-      "Altai-Man"
+  "name": "Raku::Ecosystem",
+  "description": "Obtains information from Raku modules in the ecosystem",
+  "version": "0.0.5",
+  "perl": "6.*",
+  "authors": [
+    "Alex Daniel",
+    "JJ Merelo",
+    "Altai-Man"
   ],
-  "build-depends" : [ ],
-  "depends" : [
-    "JSON::Fast"
+  "auth": "github:JJ",
+  "depends": [
+    "JSON::Fast",
+    "Zef"
   ],
-  "description" : "Obtains information from Raku modules in the ecosystem",
-  "license" : "gpl-3.0",
-  "name" : "Raku::Ecosystem",
-  "perl" : "6.*",
-  "provides" : {
-    "Raku::Ecosystem" : "lib/Raku/Ecosystem.pm6"
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "provides": {
+    "Raku::Ecosystem": "lib/Raku/Ecosystem.pm6",
+    "Raku::Ecosystem::Sources": "lib/Raku/Ecosystem/Sources.pm6"
   },
-  "resources" : [
+  "resources": [
     "scripts/show-river-score.p6",
     "scripts/count-dependencies.p6",
     "scripts/dep-to-dot.p6",
     "scripts/draw.R",
     "scripts/find-dependencies.p6"
   ],
-  "source-url" : "https://github.com/JJ/p6-river",
-  "tags" : [
+  "license": "gpl-3.0",
+  "tags": [
     "API",
     "modules"
   ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "version" : "0.0.5"
+  "source-url": "https://github.com/JJ/p6-river"
 }

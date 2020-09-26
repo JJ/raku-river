@@ -94,5 +94,13 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Zef" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506764721:Zef!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
