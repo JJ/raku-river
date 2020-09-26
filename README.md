@@ -1,15 +1,15 @@
-[![Build Status](https://travis-ci.org/JJ/p6-river.svg?branch=master)](https://travis-ci.org/JJ/p6-river)
+[![Build Status](https://travis-ci.org/JJ/raku-river.svg?branch=master)](https://travis-ci.org/JJ/raku-river)
 
 NAME
 ====
 
-Perl6::Ecosystem - Obtains information from Perl6 modules in the ecosystem
+Raku::Ecosystem - Obtains information from Raku modules in the ecosystem
 
 SYNOPSIS
 ========
 
-    use Perl::Ecosystem;
-    my $eco = Perl6::Ecosystem.new;
+    use Raku::Ecosystem;
+    my $eco = Raku::Ecosystem.new;
 
     say $eco.modules;
     say $eco.depended;
@@ -55,7 +55,7 @@ Foo will have a 0 score for appearing in the first position, up to Baz which wil
 SEE ALSO
 ========
 
-[Perl6 module ecosystem](https://modules.perl6.org).
+[Raku module ecosystem](https://modules.raku.org).
 
 KNOWN BUGS
 ==========
