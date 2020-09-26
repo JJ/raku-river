@@ -2,10 +2,11 @@ use Zef::Config;
 
 unit class Raku::Ecosystem::Sources;
 
-my @.sources;
+has @.sources;
 
 submethod TWEAK {
-    my %config = Zef::Config.parse-file( Zef::Config.guess-path );
-    @!sources = %config<Repository>.grep( .<options><mirrors> ).map: .first;
+    my %config = Zef::Config::parse-file( Zef::Config::guess-path );
+    @!sources = %config<Repository>.grep( { $_.<options><mirrors> } )
+            .map: *<options><mirrors>.first;
 }
 
