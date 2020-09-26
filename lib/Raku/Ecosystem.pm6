@@ -32,18 +32,18 @@ submethod TWEAK {
                 }
                 for @these-deps {
                     if $_.WHAT.^name ne "Str" { next };
-                    %.depended{$_}++;
-                    %.depends-on{$name}{$_} = True;
-                    %.modules{$name}{$dep-type} ∪= ~$_;
-                    %.modules{$name}<all-deps>  ∪= ~$_;
+                    %!depended{$_}++;
+                    %!depends-on{$name}{$_} = True;
+                    %!modules{$name}{$dep-type} ∪= ~$_;
+                    %!modules{$name}<all-deps>  ∪= ~$_;
                 }
             }
 
-            for %.modules{$name}<all-deps>.keys -> $dep {
-                push @.dependency-lists, [$name, $dep];
+            for %!modules{$name}<all-deps>.keys -> $dep {
+                push @!dependency-lists, [$name, $dep];
             }
             with .<source-url> {
-                %.modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
+                %!modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
             }
 
         }
@@ -53,17 +53,17 @@ submethod TWEAK {
     my %seen-deps;
 
     # Populate dependency list
-    my $dependencies = %.depended.keys.elems; #Initializes with number of depended-upon modules
-    my @temp-dep-list = @.dependency-lists;
+    my $dependencies = %!depended.keys.elems; #Initializes with number of depended-upon modules
+    my @temp-dep-list = @!dependency-lists;
     my $length = 2;
     while $dependencies > 0 {
         $dependencies = 0;
         my @generation-dep-list;
         for @temp-dep-list.grep: *.elems == $length -> @list {
             my $depended = @list[* - 1]; #last
-            if $.depends-on{$depended}.keys.elems > 0 {
+            if %!depends-on{$depended}.keys.elems > 0 {
                 my @this-list = @list;
-                for $.depends-on{$depended}.keys -> $deps {
+                for %!depends-on{$depended}.keys -> $deps {
                     without %seen-deps{$deps} {
                         %seen-deps{$deps} = True;
                         $dependencies++;
@@ -82,10 +82,10 @@ submethod TWEAK {
 
     for @temp-dep-list -> @list {
         for @list.kv -> $idx, $value {
-            %.river-scores{$value} += $idx;
+            %!river-scores{$value} += $idx;
         }
     }
-    @.dependency-lists = @temp-dep-list;
+    @!dependency-lists = @temp-dep-list;
 }
 
 =begin pod
