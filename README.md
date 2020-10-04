@@ -18,7 +18,8 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-A tool to analyze the Perl 6 ecosystem by downloading all modules and finding out how they depend on each other.
+A tool to analyze the Raku ecosystem by downloading all modules and finding out
+ how they depend on each other.
 
 METHODS
 =======
@@ -26,7 +27,8 @@ METHODS
 method new( )
 -------------
 
-Creates the object, downloading and filling it with information. Error output goes to `/tmp/perl6-eco-err.txt`
+Creates the object, downloading and filling it with information. Error output
+ goes to `/tmp/raku-eco-err.txt`
 
 method modules
 --------------
@@ -70,7 +72,7 @@ Alex Daniel, JJ Merelo <jjmerelo@gmail.com>
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018 Alex Daniel, JJ Merelo
+Copyright 2018, 2020 Alex Daniel, JJ Merelo
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
