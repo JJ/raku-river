@@ -40,4 +40,5 @@ inc/
 .precomp
 *.pdf
 
-Perl6-Ecosystem-*/
+Raku-Ecosystem-*/
+.idea/
