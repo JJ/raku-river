@@ -35,11 +35,13 @@ submethod TWEAK {
             for $dist-meta.dependencies -> $dep {
                 next unless $dep ~~ Str;
                 my $identity = Zef::Identity.new: $dep;
-                unless $identity ~~ Zef::Identity {
+                my $dep-name;
+                if $identity ~~ Zef::Identity {
+                    $dep-name = $identity.name;
+                } else {
                     warn "In $name dep is $dep and identity ", $identity.raku;
-                    next;
+                    $dep-name = $dep;
                 }
-                my $dep-name = $identity.name;
                 %!depended{$dep-name}++;
                 %!depends-on{$name}{$dep-name} = True;
                 %!modules{$name}{$dep.DependencyType} ∪= $dep-name;
