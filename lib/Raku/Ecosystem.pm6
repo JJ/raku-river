@@ -2,6 +2,8 @@ use v6.c;
 
 use JSON::Fast;
 use Dist::META;
+use Zef::Identity;
+
 use Raku::Ecosystem::Sources;
 
 unit class Raku::Ecosystem:ver<0.0.3>;
@@ -32,10 +34,16 @@ submethod TWEAK {
             next unless $dist-meta.dependencies;
             for $dist-meta.dependencies -> $dep {
                 next unless $dep ~~ Str;
-                %!depended{$dep}++;
-                %!depends-on{$name}{$dep} = True;
-                %!modules{$name}{$dep.DependencyType} ∪= ~$dep;
-                %!modules{$name}<all-deps>  ∪= ~$dep;
+                my $identity = Zef::Identity.new: $dep;
+                unless $identity ~~ Zef::Identity {
+                    warn "In $name dep is $dep and identity ", $identity.raku;
+                    next;
+                }
+                my $dep-name = $identity.name;
+                %!depended{$dep-name}++;
+                %!depends-on{$name}{$dep-name} = True;
+                %!modules{$name}{$dep.DependencyType} ∪= $dep-name;
+                %!modules{$name}<all-deps>  ∪= $dep-name;
             }
 
             for %!modules{$name}<all-deps>.keys -> $dep {
