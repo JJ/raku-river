@@ -1,6 +1,7 @@
 use v6.c;
 
 use JSON::Fast;
+use Dist::META;
 use Raku::Ecosystem::Sources;
 
 unit class Raku::Ecosystem:ver<0.0.3>;
@@ -17,36 +18,32 @@ submethod TWEAK {
         my $err = open :w, $*TMPDIR.add: 'raku-eco-err.txt';
         my $json = from-json run(<curl -->, $source, :out, :$err).out.slurp-rest;
 
-        for @$json {
-            my $name = .<name>;
-            for <depends test-depends build-depends> -> $dep-type {
-                my @these-deps = ();
-                if $dep-type eq "depends" and .{$dep-type}.WHAT.^name eq "Hash" {
-                    for <test runtime build> -> $subdep-type {
-                        @these-deps.append(values(.{$dep-type}{$subdep-type})[*;*]);
-                    }
-                } else {
-                    @these-deps = @(.{$dep-type} // ());
-                }
-                for @these-deps {
-                    if $_.WHAT.^name ne "Str" { next };
-                    %!depended{$_}++;
-                    %!depends-on{$name}{$_} = True;
-                    %!modules{$name}{$dep-type} ∪= ~$_;
-                    %!modules{$name}<all-deps>  ∪= ~$_;
-                }
+        for @$json -> %meta6 {
+            my $dist-meta;
+            try {
+                $dist-meta = Dist::META.new( json => to-json %meta6);
+            }
+            if $! {
+                warn "There's some kind of error in %meta6<name>: $!";
+                next;
+            }
+            # say "Processing %meta6<name> →", $dist-meta;
+            my $name = %meta6<name>;
+            next unless $dist-meta.dependencies;
+            for $dist-meta.dependencies -> $dep {
+                next unless $dep ~~ Str;
+                %!depended{$dep}++;
+                %!depends-on{$name}{$dep} = True;
+                %!modules{$name}{$dep.DependencyType} ∪= ~$dep;
+                %!modules{$name}<all-deps>  ∪= ~$dep;
             }
 
             for %!modules{$name}<all-deps>.keys -> $dep {
                 push @!dependency-lists, [$name, $dep];
             }
-            with .<source-url> {
-                %!modules{$name}<href> = .subst: /^‘git://’/, ‘http://’; # quick hack
-            }
 
         }
     }
-
     # Track infinite recursion for modules with incorrect deps
     my %seen-deps;
 

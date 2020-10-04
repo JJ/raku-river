@@ -12,6 +12,7 @@
   "depends": [
     "JSON::Fast",
     "Zef",
+    "Dist::META",
     "curl:from<bin>"
   ],
   "test-depends": [
