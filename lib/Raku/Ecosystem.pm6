@@ -1,12 +1,9 @@
 use v6.c;
 
 use JSON::Fast;
+use Raku::Ecosystem::Sources;
 
 unit class Raku::Ecosystem:ver<0.0.3>;
-
-has @!sources =
-        ‘https://raw.githubusercontent.com/ugexe/Perl6-ecosystems/master/cpan1.json’,
-        ‘https://ecosystem-api.p6c.org/projects1.json’;
 
 has %.modules;
 has %.depended;
@@ -15,8 +12,9 @@ has @.dependency-lists;
 has %.river-scores;
 
 submethod TWEAK {
-    for @!sources -> $source {
-        my $err = open :w, $*TMPDIR.add: 'perl6-eco-err.txt';
+    my @sources = Raku::Ecosystem::Sources.new.sources;
+    for @sources -> $source {
+        my $err = open :w, $*TMPDIR.add: 'raku-eco-err.txt';
         my $json = from-json run(<curl -->, $source, :out, :$err).out.slurp-rest;
 
         for @$json {
@@ -92,7 +90,7 @@ submethod TWEAK {
 
 =head1 NAME
 
-Raku::Ecosystem - Obtains information from Perl6 modules in the ecosystem
+Raku::Ecosystem - Obtains information from Raku modules in the ecosystem
 
 =head1 SYNOPSIS
 
