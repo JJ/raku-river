@@ -11,7 +11,8 @@
   "auth": "github:JJ",
   "depends": [
     "JSON::Fast",
-    "Zef"
+    "Zef",
+    "curl:from<bin>"
   ],
   "test-depends": [
     "Test",
