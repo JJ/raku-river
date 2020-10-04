@@ -2,7 +2,7 @@
 
 use v6;
 
-use Perl6::Ecosystem;
+use Raku::Ecosystem;
 
 my $eco = Raku::Ecosystem.new;
 
