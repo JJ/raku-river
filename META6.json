@@ -1,7 +1,7 @@
 {
   "name": "Raku::Ecosystem",
   "description": "Obtains information from Raku modules in the ecosystem",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "perl": "6.*",
   "authors": [
     "Alex Daniel",
@@ -27,13 +27,14 @@
     "scripts/show-river-score.p6",
     "scripts/count-dependencies.p6",
     "scripts/dep-to-dot.p6",
-    "scripts/draw.R",
-    "scripts/find-dependencies.p6"
+    "scripts/draw.R"
   ],
   "license": "gpl-3.0",
   "tags": [
-    "API",
-    "modules"
+      "API",
+      "modules",
+      "raku",
+      "ecosystem"
   ],
   "source-url": "https://github.com/JJ/p6-river"
 }

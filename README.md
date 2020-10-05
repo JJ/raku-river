@@ -18,12 +18,12 @@ SYNOPSIS
 And probably, the most interesting one:
 
     say $eco.river-scores
-    
+
 These last give every distribution a score based on how far upstream
 they are from other distributions. A distribution depending on other
 will get a 1 score, for instance. A depends on B which depends on C
 will get a score of two, and so on.
-    
+
 DESCRIPTION
 ===========
 
