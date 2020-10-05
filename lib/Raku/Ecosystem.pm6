@@ -55,7 +55,7 @@ submethod TWEAK {
         }
     }
     # Track infinite recursion for modules with incorrect deps
-    my %seen-deps;
+    my %seen-deps-in;
 
     # Populate dependency list
     my $dependencies = %!depended.keys.elems; #Initializes with number of depended-upon modules
@@ -69,8 +69,8 @@ submethod TWEAK {
             if %!depends-on{$depended}.keys.elems > 0 {
                 my @this-list = @list;
                 for %!depends-on{$depended}.keys -> $deps {
-                    without %seen-deps{$deps} {
-                        %seen-deps{$deps} = True;
+                    without %seen-deps-in{$deps}{$depended} {
+                        %seen-deps-in{$deps}{$depended} = True;
                         $dependencies++;
                         push @generation-dep-list: flat @list, $deps;
                     }

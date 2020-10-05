@@ -31,66 +31,10 @@
     </orderEntry>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="curl:from&lt;bin&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:curl:from&lt;bin&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Zef" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Zef!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Fast" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Fast!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="curl:from&lt;bin&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:curl:from&lt;bin&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="Dist::META" type="perl6">
         <CLASSES />
         <SOURCES>
           <root url="raku://-506764721:Dist::META!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Zef" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Zef!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Fast" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Fast!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="curl:from&lt;bin&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:curl:from&lt;bin&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -103,34 +47,10 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Dist::META" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Dist::META!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="JSON::Unmarshal:ver&lt;0.08+&gt;" type="perl6">
         <CLASSES />
         <SOURCES>
           <root url="raku://-506764721:JSON::Unmarshal:ver&lt;0.08+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Zef" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Zef!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="META6:ver&lt;0.0.24+&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:META6:ver&lt;0.0.24+&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -143,14 +63,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="JSON::Fast" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Fast!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="JSON::Name" type="perl6">
         <CLASSES />
         <SOURCES>
@@ -159,146 +71,58 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="curl:from&lt;bin&gt;" type="perl6">
+      <library name="META6" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:curl:from&lt;bin&gt;!/" />
+          <root url="raku://-506764721:META6!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="JSON::Class:ver&lt;0.0.15+&gt;" type="perl6">
+      <library name="URI" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:JSON::Class:ver&lt;0.0.15+&gt;!/" />
+          <root url="raku://-506764721:URI!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Dist::META" type="perl6">
+      <library name="License::SPDX" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:Dist::META!/" />
+          <root url="raku://-506764721:License::SPDX!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="JSON::Unmarshal:ver&lt;0.08+&gt;" type="perl6">
+      <library name="JSON::Class:ver&lt;0.0.14+&gt;" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:JSON::Unmarshal:ver&lt;0.08+&gt;!/" />
+          <root url="raku://-506764721:JSON::Class:ver&lt;0.0.14+&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Zef" type="perl6">
+      <library name="Test" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:Zef!/" />
+          <root url="raku://-506764721:Test!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="META6:ver&lt;0.0.24+&gt;" type="perl6">
+      <library name="Test::META" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:META6:ver&lt;0.0.24+&gt;!/" />
+          <root url="raku://-506764721:Test::META!/" />
         </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="JSON::Marshal:ver&lt;0.0.19+&gt;" type="perl6">
+      <library name="JSON::Marshal:ver&lt;0.0.18+&gt;" type="perl6">
         <CLASSES />
         <SOURCES>
-          <root url="raku://-506764721:JSON::Marshal:ver&lt;0.0.19+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Fast" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Fast!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Name" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Name!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="curl:from&lt;bin&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:curl:from&lt;bin&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Class:ver&lt;0.0.15+&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Class:ver&lt;0.0.15+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Dist::META" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Dist::META!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Unmarshal:ver&lt;0.08+&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Unmarshal:ver&lt;0.08+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="Zef" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:Zef!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="META6:ver&lt;0.0.24+&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:META6:ver&lt;0.0.24+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Marshal:ver&lt;0.0.19+&gt;" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Marshal:ver&lt;0.0.19+&gt;!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Fast" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Fast!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="JSON::Name" type="perl6">
-        <CLASSES />
-        <SOURCES>
-          <root url="raku://-506764721:JSON::Name!/" />
+          <root url="raku://-506764721:JSON::Marshal:ver&lt;0.0.18+&gt;!/" />
         </SOURCES>
       </library>
     </orderEntry>
