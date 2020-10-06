@@ -5,6 +5,8 @@ use Dist::META;
 use Zef::Identity;
 
 use Raku::Ecosystem::Sources;
+constant @reject-list = <Foo::Dependencies::A-on-B Foo::Dependencies::B-on-A
+                        Foo::Dependencies::Self Test>;
 
 unit class Raku::Ecosystem:ver<0.0.3>;
 
@@ -31,8 +33,10 @@ submethod TWEAK {
             }
             # say "Processing %meta6<name> →", $dist-meta;
             my $name = %meta6<name>;
+            next if $name ∈ @reject-list;
             next unless $dist-meta.dependencies;
-            for $dist-meta.dependencies -> $dep {
+            say "Dependencies ", $dist-meta.dependencies;
+            for $dist-meta.dependencies.unique -> $dep {
                 next unless $dep ~~ Str;
                 my $identity = Zef::Identity.new: $dep;
                 my $dep-name;
@@ -41,6 +45,12 @@ submethod TWEAK {
                 } else {
                     warn "In $name dep is $dep and identity ", $identity.raku;
                     $dep-name = $dep;
+                }
+                next if $dep-name ∈ @reject-list;
+                say "$name depends on $dep-name";
+                if $name eq $dep-name {
+                    warn "Circular dependency $name\n", %meta6;
+                    next;
                 }
                 %!depended{$dep-name}++;
                 %!depends-on{$name}{$dep-name} = True;
@@ -54,8 +64,6 @@ submethod TWEAK {
 
         }
     }
-    # Track infinite recursion for modules with incorrect deps
-    my %seen-deps-in;
 
     # Populate dependency list
     my $dependencies = %!depended.keys.elems; #Initializes with number of depended-upon modules
@@ -64,16 +72,17 @@ submethod TWEAK {
     while $dependencies > 0 {
         $dependencies = 0;
         my @generation-dep-list;
-        for @temp-dep-list.grep: *.elems == $length -> @list {
-            my $depended = @list[* - 1]; #last
+        my @with-length = @temp-dep-list.grep: *.elems == $length;
+        say @with-length;
+        for @with-length -> @list {
+            my $depended = @list[* - 1]; # last
+            say "Depended $depended";
             if %!depends-on{$depended}.keys.elems > 0 {
+                say "Depends on ", %!depends-on{$depended};
                 my @this-list = @list;
                 for %!depends-on{$depended}.keys -> $deps {
-                    without %seen-deps-in{$deps}{$depended} {
-                        %seen-deps-in{$deps}{$depended} = True;
-                        $dependencies++;
-                        push @generation-dep-list: flat @list, $deps;
-                    }
+                    $dependencies++;
+                    push @generation-dep-list: flat @list, $deps;
                 }
             } else {
                 push @generation-dep-list: @list;

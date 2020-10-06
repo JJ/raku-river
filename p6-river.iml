@@ -126,5 +126,13 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="META6:ver&lt;0.0.24+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://-506764721:META6:ver&lt;0.0.24+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
