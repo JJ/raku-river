@@ -35,7 +35,7 @@ submethod TWEAK {
             my $name = %meta6<name>;
             next if $name ∈ @reject-list;
             next unless $dist-meta.dependencies;
-            say "Dependencies ", $dist-meta.dependencies;
+            # say "Dependencies ", $dist-meta.dependencies;
             for $dist-meta.dependencies.unique -> $dep {
                 next unless $dep ~~ Str;
                 my $identity = Zef::Identity.new: $dep;
@@ -47,7 +47,7 @@ submethod TWEAK {
                     $dep-name = $dep;
                 }
                 next if $dep-name ∈ @reject-list;
-                say "$name depends on $dep-name";
+#               say "$name depends on $dep-name";
                 if $name eq $dep-name {
                     warn "Circular dependency $name\n", %meta6;
                     next;
@@ -76,9 +76,9 @@ submethod TWEAK {
         say @with-length;
         for @with-length -> @list {
             my $depended = @list[* - 1]; # last
-            say "Depended $depended";
+#            say "Depended $depended";
             if %!depends-on{$depended}.keys.elems > 0 {
-                say "Depends on ", %!depends-on{$depended};
+#                say "Depends on ", %!depends-on{$depended};
                 my @this-list = @list;
                 for %!depends-on{$depended}.keys -> $deps {
                     $dependencies++;
